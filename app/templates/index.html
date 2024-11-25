@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <!-- Link to compiled CSS -->
+    <link rel="stylesheet" href="static/css/styles.css" />
+    <!-- Material Icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <h1>Customer Service Chatbot</h1>
+    </header>
+    <div id="chat-container">
+        <!-- Chat messages container -->
+        <div id="messages"></div>
+        <!-- Input area for typing messages -->
+        <div id="input-area">
+            <input type="text" id="user-input" placeholder="Type your question here..." />
+            <button onclick="sendMessage()">
+                <span class="material-icons">keyboard_arrow_up</span>
+            </button>
+        </div>
+    </div>
+    <!-- Javascript -->
+    <script src="static/js/chat.js"></script>
+</body>
+</html>
