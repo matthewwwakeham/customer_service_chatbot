@@ -17,8 +17,12 @@
         <!-- Chat messages container -->
         <div id="messages"></div>
         <!-- Input area for typing messages -->
+         <!-- Typing Indicator (initially hidden) -->
+        <div id="typing-indicator" style="display: none;">
+            <span>Leo is typing</span>
+        </div>
         <div id="input-area">
-            <input type="text" id="user-input" placeholder="Type your question here..." />
+            <textarea id="user-input" placeholder="Type something..."></textarea>
             <button onclick="sendMessage()">
                 <span class="material-icons">keyboard_arrow_up</span>
             </button>
