@@ -11,21 +11,25 @@
 </head>
 <body>
     <header>
-        <h1>Customer Service Chatbot</h1>
+        <h1>Chatting with The Flask</h1>
     </header>
     <div id="chat-container">
         <!-- Chat messages container -->
         <div id="messages"></div>
-        <!-- Input area for typing messages -->
-         <!-- Typing Indicator (initially hidden) -->
+        <!-- Typing Indicator (initially hidden) -->
         <div id="typing-indicator" style="display: none;">
-            <span>Leo is typing</span>
+            <span>Leo is typing</span> <!-- Or you can add a spinner or animation here -->
         </div>
         <div id="input-area">
-            <textarea id="user-input" placeholder="Type something..."></textarea>
+            <!-- Textarea for multi-line input -->
+            <textarea id="user-input" maxlength="140" placeholder="Message The Flask" rows="3"></textarea>
             <button onclick="sendMessage()">
                 <span class="material-icons">keyboard_arrow_up</span>
             </button>
+        </div>
+        <div id="char-count-container">
+            <span id="char-limit-phrase">Chats are recorded.</span>
+            <span id="char-count">140 / 140</span>
         </div>
     </div>
     <!-- Javascript -->

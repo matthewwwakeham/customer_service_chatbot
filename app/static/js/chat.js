@@ -1,46 +1,86 @@
 const messagesDiv = document.getElementById('messages');
 
-// Function to append messages to the chat with delay for name and message
-function appendMessage(sender, message, immediate = false) {
+// Function to append messages to the chat with a timestamp
+function appendMessage(sender, message, timestamp, immediate = false) {
     const messageElem = document.createElement('div');
     messageElem.classList.add('message');
 
-    // Create and append the name div for the bot (but not for the user)
-    const nameElem = document.createElement('div');
-    nameElem.classList.add('message-name');
-    if (sender === 'Chatbot') {
-        nameElem.textContent = 'Leo'; // Set name for the bot
+    // Add specific class based on sender (user or bot)
+    if (sender === 'You') {
+        messageElem.classList.add('user'); // Add the user class for styling
+    } else {
+        messageElem.classList.add('bot'); // Add the bot class for styling
     }
 
-    // Create and append the message text div
+    // Dynamically create header text: "Name • Timestamp"
+    const name = sender === 'You' ? 'You' : 'Leo'; // Determine the name
+    const headerText = `${name} • ${timestamp}`; // Combine name and timestamp
+
+    // Create the header element and set its text content
+    const headerElem = document.createElement('div');
+    headerElem.classList.add('message-header');
+    headerElem.textContent = headerText;
+
+    // Create the message text element
     const messageTextElem = document.createElement('div');
     messageTextElem.classList.add('message-text');
     messageTextElem.textContent = message;
 
-    // Add specific class based on sender (user or chatbot)
-    if (sender === 'You') {
-        messageElem.classList.add('user'); 
-    } else {
-        messageElem.classList.add('bot'); 
-    }
-
-    // Append the message text inside the message element
+    // Append header and text to the message element
+    messageElem.appendChild(headerElem);
     messageElem.appendChild(messageTextElem);
 
-    // Append the name and message text inside the message element
+    // Handle immediate vs delayed appending
     if (sender === 'Chatbot' && !immediate) {
-        // Delay appending name with message if not immediate
+        // Delay appending header with message if not immediate
         setTimeout(() => {
-            messageElem.insertBefore(nameElem, messageTextElem);
             messagesDiv.appendChild(messageElem);
             messagesDiv.scrollTop = messagesDiv.scrollHeight;
         }, 1500); // 1.5 seconds delay (adjust as needed)
     } else {
-        // Append both immediately for the welcome message
-        messageElem.insertBefore(nameElem, messageTextElem);
+        // Append both immediately for the user's message or welcome message
         messagesDiv.appendChild(messageElem);
         messagesDiv.scrollTop = messagesDiv.scrollHeight;
     }
+}
+
+// Function to append a greeting message
+function appendGreetingMessage() {
+    const now = new Date();
+
+    // Determine the greeting based on the time of day
+    const hours = now.getHours();
+    let greeting = 'Good Morning!';
+    if (hours >= 12 && hours < 18) {
+        greeting = 'Good Afternoon!';
+    } else if (hours >= 18) {
+        greeting = 'Good Evening!';
+    }
+
+    // Format the current day and time
+    const currentDay = now.toLocaleDateString([], { weekday: 'long' });
+    const currentTime = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: true });
+
+    // Create a container for the greeting message
+    const greetingElem = document.createElement('div');
+    greetingElem.classList.add('greeting-message');
+
+    // Add the greeting text
+    const greetingTextElem = document.createElement('div');
+    greetingTextElem.classList.add('greeting-text');
+    greetingTextElem.textContent = greeting;
+
+    // Add the secondary line with the day and timestamp
+    const greetingDetailsElem = document.createElement('div');
+    greetingDetailsElem.classList.add('greeting-details');
+    greetingDetailsElem.textContent = `${currentDay}, ${currentTime}`;
+
+    // Append both parts to the greeting container
+    greetingElem.appendChild(greetingTextElem);
+    greetingElem.appendChild(greetingDetailsElem);
+
+    // Append the greeting container to the messages container
+    messagesDiv.appendChild(greetingElem);
 }
 
 // Function to handle the send message button click
@@ -51,11 +91,17 @@ async function sendMessage() {
     // Prevent sending empty messages
     if (!message) return;
 
+    // Get the current time for the user's message in 12-hour format
+    const userTimestamp = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: true });
+
     // Append the user's message to the chat
-    appendMessage('You', message);
+    appendMessage('You', message, userTimestamp);
 
     // Clear the input field after appending the message
     userInput.value = '';
+
+    // Reset the character count
+    resetCharCount();
 
     // Reset the height of the input area after sending the message
     userInput.style.height = 'auto';
@@ -85,7 +131,9 @@ async function sendMessage() {
             typingIndicator.style.display = 'none';
 
             // Append the bot's response after the delay
-            appendMessage('Chatbot', data.response);
+            const botMessage = data.bot_response.message;
+            const botTimestamp = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: true });
+            appendMessage('Chatbot', botMessage, botTimestamp);
         }, 1500); // 1.5 seconds delay (adjust as needed)
     } catch (error) {
         console.error('Error:', error);
@@ -94,24 +142,36 @@ async function sendMessage() {
     }
 }
 
+// Function to reset the character count
+function resetCharCount() {
+    const maxLength = userInput.getAttribute('maxlength');
+    charCount.textContent = `${maxLength} characters remaining`;
+}
+
 // Example of dynamically loading messages on page load
 document.addEventListener('DOMContentLoaded', () => {
-    // Initially, you might want to load some starting messages
-    appendMessage('Chatbot', 'Hello! How can I assist you today?', true); // Show instantly with name
+    // Append greeting message
+    appendGreetingMessage();
+
+    // Append chatbot's first message
+    const welcomeTimestamp = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: true });
+    appendMessage('Chatbot', 'Hello! How can I assist you today?', welcomeTimestamp, true);
 });
 
 // Add event listener to handle Enter key press
-document.getElementById('user-input').addEventListener('keydown', function(event) {
+document.getElementById('user-input').addEventListener('keydown', function (event) {
     if (event.key === 'Enter') {
         event.preventDefault(); // Prevent the default action of Enter key (e.g., form submission)
         sendMessage(); // Call sendMessage when Enter is pressed
     }
 });
 
-// Adjust the height of the input field dynamically as the user types
 const userInput = document.getElementById('user-input');
+const charCount = document.getElementById('char-count');
+const maxLength = userInput.getAttribute('maxlength');
 
-userInput.addEventListener('input', function () {
-    this.style.height = 'auto';  // Reset height to auto to shrink if text is deleted
-    this.style.height = (this.scrollHeight) + 'px';  // Set height based on the content's scroll height
+// Update the character count as the user types
+userInput.addEventListener('input', () => {
+    const remaining = maxLength - userInput.value.length;
+    charCount.textContent = `${remaining} / 140`;
 });
