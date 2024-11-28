@@ -1,3 +1,4 @@
+// Get the messages div in the html
 const messagesDiv = document.getElementById('messages');
 
 // Function to append messages to the chat with a timestamp
@@ -42,18 +43,9 @@ function appendMessage(sender, message, timestamp, immediate = false) {
     messageElem.appendChild(headerElem);
     messageElem.appendChild(messageTextElem);
 
-    // Handle immediate vs delayed appending
-    if (sender === 'Chatbot' && !immediate) {
-        // Delay appending header with message if not immediate
-        setTimeout(() => {
-            messagesDiv.appendChild(messageElem);
-            messagesDiv.scrollTop = messagesDiv.scrollHeight;
-        }, 1500); // 1.5 seconds delay (adjust as needed)
-    } else {
-        // Append both immediately for the user's message or welcome message
-        messagesDiv.appendChild(messageElem);
-        messagesDiv.scrollTop = messagesDiv.scrollHeight;
-    }
+    // Append both immediately for the user's message or welcome message
+    messagesDiv.appendChild(messageElem);
+    messagesDiv.scrollTop = messagesDiv.scrollHeight;
 }
 
 // Function to format the time in 12-hour format (AM/PM) without leading zero
