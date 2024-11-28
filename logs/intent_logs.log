@@ -1,0 +1,8 @@
+2024-11-27 21:32:00,614 - User Query: Please help me return this stupid product! It sucks!!!
+2024-11-27 21:32:00,615 - Predicted Intent: return_policy (Confidence: 0.23)
+2024-11-27 21:32:00,615 - Valid Intent: return_policy
+2024-11-27 21:32:00,623 - FAQ Match: Can you help me track my order? (Similarity: 0.46)
+2024-11-27 21:32:35,792 - User Query: Help me return this terrible product!
+2024-11-27 21:32:35,793 - Predicted Intent: return_policy (Confidence: 0.23)
+2024-11-27 21:32:35,793 - Valid Intent: return_policy
+2024-11-27 21:32:35,803 - FAQ Match: Can you help me track my order? (Similarity: 0.50)

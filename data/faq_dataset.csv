@@ -1,39 +1,848 @@
 Question,Answer,Intent
 "What is your return policy?","Our return policy allows returns within 30 days of purchase.","return_policy"
 "How can I track my order?","You can track your order using the tracking link in your email.","track_order"
+"How do I track my order?","You can track your order by using the tracking number sent to your email.","track_order"
+"Can you help me track my package?","Sure! You can track your package using the tracking number provided in your shipping confirmation email.","track_order"
 "What are your store hours?","Our store is open Monday through Friday, 9 AM to 9 PM.","store_hours"
+"What time does your store close?","Our store closes at 9 PM on weekdays and weekends.","store_hours"
 "Do you offer international shipping?","Yes, we ship to most countries worldwide. Shipping rates may vary.","international_shipping"
-"Can I change my delivery address?","You can change your delivery address by contacting support before your order is shipped.","change_address"
+"Can you ship to other countries?","Yes, we offer international shipping to many destinations.","international_shipping"
+"How can I change my delivery address?","You can change your delivery address by contacting support before your order is shipped.","change_address"
+"I need to update my shipping address. Can you help?","To change your address, contact us as soon as possible before your order is shipped.","change_address"
 "How do I reset my password?","Click on 'Forgot Password' on the login page and follow the instructions.","reset_password"
+"I forgot my password. What should I do?","Click 'Forgot Password' on the login page and follow the steps to reset your password.","reset_password"
 "What payment methods do you accept?","We accept Visa, Mastercard, PayPal, and more.","payment_methods"
+"Can I pay with PayPal?","Yes, we accept PayPal as a payment method.","payment_methods"
 "Where is your company located?","Our headquarters are located in San Francisco, California.","company_location"
+"Do you have an office in New York?","Currently, our main office is in San Francisco, but we are looking to expand.","company_location"
 "Do you have a loyalty program?","Yes, join our loyalty program to earn points on every purchase.","loyalty_program"
-"Is this product in stock?","Let me check the availability for you.","check_stock"
-"How do I cancel my order?","You can cancel your order from your account if it hasn't been shipped yet.","cancel_order"
+"Can I earn rewards with purchases?","Yes, our loyalty program lets you earn points and redeem them for discounts and rewards.","loyalty_program"
+"How can I cancel my order?","You can cancel your order from your account if it hasn't been shipped yet.","cancel_order"
+"I changed my mind, how do I cancel my order?","If your order hasn't shipped, you can cancel it by contacting customer service immediately.","cancel_order"
 "What is the warranty on this product?","This product comes with a one-year warranty.","product_warranty"
+"Does this product come with a warranty?","Yes, this item includes a one-year warranty for repairs or replacements.","product_warranty"
 "Do you have discounts for students?","Yes, we offer a 10% discount for students with a valid ID.","student_discount"
+"Are there any student discounts available?","Yes, we provide a 10% discount on all items with a student ID.","student_discount"
 "Can I get a refund?","Refunds are processed within 5–7 business days after approval.","refund_process"
+"How long does it take to get a refund?","Refunds are processed within 5-7 business days. It may take longer depending on the payment method.","refund_process"
 "Why is my order delayed?","Delays can happen due to high demand or carrier issues. Let me check your order.","order_delay"
+"Why hasn’t my order arrived?","Sometimes, orders are delayed due to high demand or carrier issues. Let me check the status for you.","order_delay"
 "How do I contact customer support?","You can contact us via email at support@example.com or call 1-800-123-4567.","contact_support"
+"I need help. How can I reach customer service?","You can reach our customer service team by email at support@example.com or by phone at 1-800-123-4567.","contact_support"
 "What is your privacy policy?","Our privacy policy can be viewed at example.com/privacy.","privacy_policy"
+"Where can I read your privacy policy?","You can read our full privacy policy on our website at example.com/privacy.","privacy_policy"
 "How do I unsubscribe from emails?","Click the 'Unsubscribe' link at the bottom of any email.","unsubscribe_email"
+"Can I stop receiving emails from you?","Yes, you can unsubscribe from our emails by clicking the 'Unsubscribe' link in any email.","unsubscribe_email"
 "Can I request a custom order?","Yes, custom orders are available for select products.","custom_order"
+"How do I place a custom order?","Please contact our customer service team to inquire about placing a custom order.","custom_order"
 "Are there any upcoming promotions?","Stay tuned to our website for upcoming promotions and sales.","upcoming_promotions"
+"Will there be discounts for Black Friday?","We will have special offers and promotions for Black Friday. Stay tuned to our website for details.","upcoming_promotions"
 "Can I modify my order after placing it?","Once an order is placed, we cannot modify it, but you may cancel it within a short time frame before it is processed. Please contact support immediately for assistance.","modify_order"
+"Can I change my order after I’ve placed it?","Unfortunately, we cannot change an order after it's been placed, but you can cancel it within a short time frame.","modify_order"
 "What is the status of my refund?","Refunds are processed within 5-7 business days after approval. If you have not received your refund after this period, please contact support for an update.","refund_status"
+"Has my refund been processed yet?","Refunds are typically processed within 5-7 business days. Please contact us for an update.","refund_status"
 "Do you offer gift cards?","Yes, we offer gift cards in various denominations, which can be purchased on our website or in-store.","gift_cards"
+"Can I buy a gift card from your store?","Yes, you can purchase gift cards online or at our physical store locations.","gift_cards"
 "Can I change the quantity of an item in my order?","If your order hasn't been processed yet, you can contact support to adjust the quantity of an item. Once the order is shipped, changes can no longer be made.","change_quantity"
+"Can I increase the quantity of items in my order?","If your order has not yet been processed, you can contact customer support to change the quantity.","change_quantity"
 "Do you offer expedited shipping?","Yes, we offer expedited shipping options during checkout for faster delivery. The cost will depend on your location and the speed of delivery.","expedited_shipping"
+"How do I speed up shipping for my order?","During checkout, you can select expedited shipping for faster delivery. The cost will depend on your location.","expedited_shipping"
 "How do I apply a promo code?","During checkout, you will find a field to enter your promo code. Simply type it in and click 'Apply' to see your discount reflected in the total.","apply_promo_code"
+"Where can I enter my promo code?","You can enter your promo code during checkout in the designated field to receive your discount.","apply_promo_code"
 "Can I ship to a P.O. Box?","Yes, we can ship to P.O. Boxes, though some carriers may not be able to deliver certain items to P.O. Boxes. Check the shipping details for specific items.","po_box_shipping"
+"Will you deliver to a P.O. Box?","Yes, we can deliver to a P.O. Box for most items. However, some carriers may not be able to deliver certain items to P.O. Boxes.","po_box_shipping"
 "Are your products eco-friendly?","Many of our products are designed with sustainability in mind. Look for the eco-friendly badge on product pages for more details.","eco_friendly_products"
+"Do you sell eco-friendly products?","Yes, many of our products are eco-friendly. Look for the eco-friendly badge on the product page for more details.","eco_friendly_products"
 "Can I gift wrap my order?","Yes, we offer gift wrapping for an additional fee. You can select this option during the checkout process.","gift_wrapping"
+"Can you wrap my gifts for me?","Yes, we offer gift wrapping for an extra fee. You can select it during checkout.","gift_wrapping"
 "How do I leave a product review?","After receiving your order, you will be able to leave a review on the product page by selecting the 'Write a Review' button and sharing your feedback.","product_review"
+"Where can I leave a product review?","After your order arrives, you can leave a review on the product page by clicking 'Write a Review' and sharing your thoughts.","product_review"
 "What should I do if my item is damaged?","If your item arrives damaged, please contact support within 7 days of receiving your order, and we will assist you with a replacement or refund.","damaged_item"
+"My item is damaged. What should I do?","If your item arrives damaged, contact customer support within 7 days of receiving your order for a replacement or refund.","damaged_item"
 "Can I track an international order?","Yes, international orders can be tracked using the tracking number provided. Please note that tracking updates may take longer depending on the destination country.","track_international_order"
+"How can I track my international order?","Yes, international orders come with tracking numbers, and you can track your order using the link provided.","track_international_order"
 "How can I get a copy of my receipt?","If you need a copy of your receipt, you can find it in your order history under your account, or contact support if you need further assistance.","copy_receipt"
+"I need a copy of my receipt. How can I get it?","You can access your receipt through your account's order history or contact support for assistance.","copy_receipt"
 "Do you offer price matching?","We offer price matching on identical items within 30 days of purchase. Please contact support for assistance if you find a lower price elsewhere.","price_matching"
+"Will you match prices if I find a lower price elsewhere?","Yes, we offer price matching on identical items within 30 days of purchase. Contact support for assistance.","price_matching"
 "What is your policy on handling damaged or defective items?","If you receive a defective item, please contact customer support immediately. We will guide you through the process of returning or exchanging the item.","defective_items_policy"
+"My item is defective. What do I do?","If you receive a defective item, contact our customer service immediately for a return or exchange.","defective_items_policy"
 "Can I pre-order an out-of-stock item?","For select items, we offer pre-orders. If the item is available for pre-order, you’ll be able to place an order with an expected shipment date.","pre_order"
+"How do I pre-order an item that's out of stock?","If an item is out of stock but available for pre-order, you can place your order and it will ship once available.","pre_order"
 "How do I change my email address on my account?","You can change your email address by logging into your account and navigating to the 'Account Settings' page. If you need help, contact customer support.","change_email"
+"How can I update my email address on your website?","Log into your account, go to 'Account Settings', and update your email address. Contact support if you need assistance.","change_email"
 "Do you offer a military discount?","Yes, we offer a 15% discount for military personnel with valid ID. You can apply this discount during checkout.","military_discount"
+"Is there a discount for military personnel?","Yes, we offer a 15% military discount with valid ID. Apply it at checkout.","military_discount"
+"Do you offer gift cards?","Yes, we offer gift cards in various denominations, which can be purchased on our website or in-store.","gift_cards"
+"Can I buy a gift card from your store?","Yes, we offer gift cards both online and in-store for various amounts.","gift_cards"
+"Where can I purchase a gift card?","You can buy gift cards from our website or in physical stores.","gift_cards"
+"Do you sell digital gift cards?","Yes, we offer digital gift cards that can be emailed to the recipient.","gift_cards"
+"Can I use a gift card for online purchases?","Yes, gift cards can be used for both online and in-store purchases.","gift_cards"
+"How does your loyalty program work?","Our loyalty program rewards you with points for every purchase, which you can redeem for discounts or rewards.","loyalty_program"
+"Do you have a rewards program?","Yes, we have a loyalty program that lets you earn points for every purchase and redeem them for rewards.","loyalty_program"
+"How can I join the loyalty program?","You can sign up for our loyalty program on our website or in-store to start earning points on your purchases.","loyalty_program"
+"Do I get points for every purchase?","Yes, you earn loyalty points for every purchase made, which can later be redeemed for discounts or rewards.","loyalty_program"
+"Can I use my loyalty points for discounts?","Yes, you can redeem your loyalty points for discounts on your future purchases.","loyalty_program"
+"What is your return policy?","Our return policy allows returns within 30 days of purchase for most items. Certain conditions apply.","return_policy"
+"Can I return an item after purchase?","Yes, items can be returned within 30 days of purchase, as long as they are in original condition.","return_policy"
+"How long do I have to return an item?","Our return policy gives you 30 days from the purchase date to return items in original condition.","return_policy"
+"Can I return a gift?","Yes, gifts can be returned within 30 days. You may need the receipt or order number to process the return.","return_policy"
+"How do I return an item?","To return an item, you can initiate the process through your account or by contacting our customer service team.","return_policy"
+"What are your store hours?","Our store is open Monday through Friday, 9 AM to 9 PM.","store_hours"
+"At what time does the store close?","Our store closes at 9 PM from Monday to Friday. On weekends, we close at 8 PM.","store_hours"
+"Can I visit the store on weekends?","Yes, our store is open on weekends, from 10 AM to 8 PM.","store_hours"
+"How late is your store open today?","Our store is open until 9 PM today.","store_hours"
+"Are you open on holidays?","Our store is open on most holidays. Please check our website for holiday hours.","store_hours"
+"Can I buy a gift card online?","Yes, you can purchase gift cards directly from our website.","gift_cards"
+"Where can I use my gift card?","You can use gift cards both in-store and online at checkout.","gift_cards"
+"Can I check the balance of my gift card?","Yes, you can check your gift card balance by visiting our website or contacting customer service.","gift_cards"
+"How do I redeem my gift card?","To redeem your gift card, simply enter the card number at checkout or provide it to our store cashier.","gift_cards"
+"Can I use my gift card with other promotions?","Yes, gift cards can be combined with other discounts and promotions during checkout.","gift_cards"
+"How can I join your loyalty program?","You can sign up for our loyalty program online or in-store, and start earning rewards with your first purchase.","loyalty_program"
+"Can I earn loyalty points on sale items?","Yes, you can earn points on sale items, except where otherwise specified in the terms and conditions.","loyalty_program"
+"Is there an expiration for loyalty points?","Yes, loyalty points expire after one year from the date of earning. Be sure to use them before they expire!","loyalty_program"
+"Do you offer extra points for referrals?","Yes, we offer extra loyalty points when you refer a friend who makes a purchase.","loyalty_program"
+"How do I redeem my loyalty points?","To redeem your points, go to the checkout page and apply them for discounts on your order.","loyalty_program"
+"What forms of payment do you accept?","We accept Visa, Mastercard, PayPal, Apple Pay, and Google Pay.","payment_methods"
+"Can I pay using a gift card?","Yes, you can pay with a gift card during checkout on our website or in-store.","payment_methods"
+"Do you accept Bitcoin or other cryptocurrencies?","Currently, we do not accept Bitcoin or other cryptocurrencies as payment.","payment_methods"
+"Can I pay with an international credit card?","Yes, we accept international credit cards for orders from any country.","payment_methods"
+"Can I use multiple payment methods?","Yes, you can use multiple payment methods such as a combination of a credit card and a gift card during checkout.","payment_methods"
+"What forms of payment do you accept?","We accept Visa, Mastercard, PayPal, Apple Pay, and Google Pay.","payment_methods"
+"Can I pay using a gift card?","Yes, you can pay with a gift card during checkout on our website or in-store.","payment_methods"
+"Do you accept Bitcoin or other cryptocurrencies?","Currently, we do not accept Bitcoin or other cryptocurrencies as payment.","payment_methods"
+"Can I pay with an international credit card?","Yes, we accept international credit cards for orders from any country.","payment_methods"
+"Can I use multiple payment methods?","Yes, you can use multiple payment methods such as a combination of a credit card and a gift card during checkout.","payment_methods"
+"Can I add more items to my order after it’s placed?","Unfortunately, you cannot modify your order once it has been placed, but you can cancel it and reorder.","modify_order"
+"How do I cancel my order?","You can cancel your order if it hasn’t been shipped by contacting our customer support team immediately.","modify_order"
+"Can I remove an item from my order?","If your order hasn’t been processed yet, you can remove items by contacting customer service.","modify_order"
+"Can I change the shipping address after placing my order?","You may be able to change your shipping address if your order hasn’t been processed yet. Please contact customer service.","modify_order"
+"How do I change the payment method on my order?","Once an order is placed, the payment method cannot be changed. You would need to cancel and place a new order with the updated payment method.","modify_order"
+"How do I request a refund?","To request a refund, please contact our customer service team with your order number.","refund_process"
+"How long does a refund take?","Refunds are processed within 5-7 business days after approval, depending on your payment method.","refund_process"
+"Can I get a refund if my item is on sale?","Yes, you can request a refund on sale items, as long as they meet the return criteria.","refund_process"
+"Can I get a refund if I changed my mind?","If the item is unopened and in original condition, you can return it for a refund within the allowed return period.","refund_process"
+"Will my shipping costs be refunded?","Shipping costs are only refunded if the item is defective or if the return is due to an error on our part.","refund_process"
+"How can I track my order?","You can track your order using the tracking number provided in your shipping confirmation email.","track_order"
+"Where can I find my order tracking number?","Your tracking number is included in the shipping confirmation email, along with a link to track the package.","track_order"
+"Can I track my order if I didn’t get a tracking number?","If you did not receive a tracking number, please contact customer support and we will assist you.","track_order"
+"Why can’t I track my order?","Tracking updates may be delayed, or your carrier may not have updated the system yet. Please wait a few hours and try again.","track_order"
+"Can I track international orders?","Yes, international orders come with tracking numbers. You can track them using the provided tracking number.","track_order"
+"What time do you open?","Our store opens at 9 AM, Monday through Friday.","store_hours"
+"Are you open on weekends?","Yes, our store is open on Saturdays from 10 AM to 6 PM and closed on Sundays.","store_hours"
+"Do you have holiday hours?","Yes, we adjust our hours during holidays. Please check our website for specific holiday hours.","store_hours"
+"Can I visit your store late in the evening?","Our store is open until 9 PM on weekdays. However, we close earlier on weekends.","store_hours"
+"How early can I visit your store?","Our store opens at 9 AM on weekdays and 10 AM on weekends.","store_hours"
+"How do I cancel my order?","To cancel your order, please contact customer service immediately if the order has not been shipped yet.","cancel_order"
+"Can I cancel my order after it’s placed?","You can cancel your order if it hasn’t been processed or shipped. Please contact us as soon as possible.","cancel_order"
+"I want to cancel my order. How can I do that?","If your order hasn’t been shipped yet, please get in touch with our support team to cancel it.","cancel_order"
+"Can I cancel an order that’s already shipped?","Unfortunately, once an order has been shipped, it cannot be canceled. Please contact us for return instructions.","cancel_order"
+"How do I stop my order from being shipped?","Once the order is placed, it’s processed quickly. Please contact support immediately to try and cancel it before shipping.","cancel_order"
+"Can I change the quantity of an item after placing an order?","If your order hasn't been processed yet, you can change the quantity by contacting customer support.","change_quantity"
+"How do I increase the quantity of an item in my order?","You can adjust the quantity of items in your order before it’s shipped by contacting us immediately.","change_quantity"
+"I want to change the quantity of my order. Can I do that?","If your order has not been processed yet, we can modify the quantity for you. Please reach out to us as soon as possible.","change_quantity"
+"Can I add more items to my order after it’s placed?","Once an order is placed, the items cannot be added unless you cancel and place a new order.","change_quantity"
+"How do I change the number of items in my order?","To change the number of items in your order, please contact customer service as soon as possible before the order is processed.","change_quantity"
+"Why is my order delayed?","Orders can sometimes be delayed due to high demand, stock availability, or shipping carrier issues. Let me check the status for you.","order_delay"
+"My order hasn’t arrived yet. Can you tell me why?","Order delays may occur due to weather, holidays, or shipping carrier issues. We can check the status of your order for you.","order_delay"
+"Why is my shipment taking longer than expected?","Shipping delays can happen due to various factors, including carrier issues or high order volumes. Let me look into it for you.","order_delay"
+"My order is delayed. How can I track it?","You can track your order using the tracking number in your shipping confirmation email. If there’s an issue, feel free to contact us.","order_delay"
+"Can you help me track a delayed order?","Yes, please provide the order number, and we can check the status of your delayed shipment for you.","order_delay"
+"Can I change my order after it’s been placed?","Once an order is placed, it cannot be modified. However, you may be able to cancel the order and place a new one.","modify_order"
+"How can I modify my order?","Orders cannot be modified once placed. If you need changes, please cancel the order and place a new one.","modify_order"
+"I placed an order but want to change it. Can I do that?","Unfortunately, once an order is placed, changes cannot be made. You can cancel it and create a new order.","modify_order"
+"Can I update my shipping address after ordering?","If your order hasn't shipped yet, we can update the shipping address. Please contact us immediately.","modify_order"
+"Can I change the payment method on my order?","Once an order is placed, you cannot change the payment method. You would need to cancel and place a new order.","modify_order"
+"How do I request a refund for an item?","To request a refund, please contact customer support with your order number and reason for the return.","refund_process"
+"Can I get a refund for an item I don’t like?","Refunds can be requested for unwanted items as long as they are within the return window and in original condition.","refund_process"
+"How long does it take to process a refund?","Refunds typically take 5-7 business days to process once they’ve been approved.","refund_process"
+"Do I need to return the item to get a refund?","Yes, most refunds require the item to be returned in original condition. Please check our return policy for more details.","refund_process"
+"Can I get a refund if the product is defective?","Yes, defective items can be refunded or replaced. Please contact us within 7 days of receiving the item.","refund_process"
+"How do I track my order?","You can track your order by using the tracking number sent in your confirmation email.","track_order"
+"Can you help me track my order?","Yes, please provide your order number, and we will help you track the status of your shipment.","track_order"
+"I didn’t get a tracking number. How can I track my order?","If you didn’t receive a tracking number, please check your spam folder, or contact us and we’ll provide the details.","track_order"
+"Why is my order not showing up in tracking?","Sometimes tracking information is updated late. You can try again in a few hours or contact us for further assistance.","track_order"
+"How can I track an international order?","International orders can be tracked with the tracking number provided. Please note updates may be slower depending on the destination country.","track_order"
+"How late is your store open?","Our store is open until 9 PM from Monday to Friday, and until 8 PM on weekends.","store_hours"
+"Can I visit the store on weekends?","Yes, our store is open on weekends from 10 AM to 8 PM.","store_hours"
+"Do you open on holidays?","Our store is open on most holidays. Please visit our website for holiday-specific hours.","store_hours"
+"What time does your store open?","Our store opens at 9 AM every weekday and at 10 AM on weekends.","store_hours"
+"Are you open on public holidays?","Yes, our store is open on public holidays, but please check our website for specific holiday hours.","store_hours"
+Question,Answer,Intent
+"How do I cancel my order?","To cancel your order, please contact customer service immediately if the order has not been shipped yet.","cancel_order"
+"Can I cancel my order after it’s placed?","You can cancel your order if it hasn’t been processed or shipped. Please contact us as soon as possible.","cancel_order"
+"How do I change the quantity of my order?","If your order hasn't been processed yet, you can change the quantity by contacting customer support.","change_quantity"
+"Can I add more items to my order after it’s placed?","Once an order is placed, the items cannot be added unless you cancel and place a new order.","change_quantity"
+"Why is my order delayed?","Orders can sometimes be delayed due to high demand, stock availability, or shipping carrier issues. Let me check the status for you.","order_delay"
+"Why hasn’t my order arrived yet?","Order delays may occur due to weather, holidays, or shipping carrier issues. We can check the status of your order for you.","order_delay"
+"Can I change my order after it’s been placed?","Once an order is placed, it cannot be modified. However, you may be able to cancel the order and place a new one.","modify_order"
+"How do I request a refund?","To request a refund, please contact our customer service team with your order number.","refund_process"
+"How do I track my order?","You can track your order using the tracking number provided in your shipping confirmation email.","track_order"
+"Are you open on weekends?","Yes, our store is open on weekends from 10 AM to 8 PM.","store_hours"
+Question,Answer,Intent
+At what time does the store close?,"Our store closes at 9 PM from Monday to Friday. On weekends, we close at 8 PM.",store_hours
+How late is your store open?,"Our store is open until 9 PM from Monday to Friday, and until 8 PM on weekends.",store_hours
+Can I visit the store on weekends?,"Yes, our store is open on weekends from 10 AM to 8 PM.",store_hours
+Are you open on public holidays?,"Yes, our store is open on public holidays, but please check our website for specific holiday hours.",store_hours
+Are you open on weekends?,"Yes, our store is open on weekends from 10 AM to 8 PM.",store_hours
+Can I visit the store on weekends?,"Yes, our store is open on weekends from 10 AM to 8 PM.",store_hours
+Do you have holiday hours?,"Yes, we adjust our hours during holidays. Please check our website for specific holiday hours.",store_hours
+Can I visit the store on weekends?,"Yes, our store is open on weekends from 10 AM to 8 PM.",store_hours
+Can I visit the store on weekends?,"Yes, our store is open on weekends from 10 AM to 8 PM.",store_hours
+How late is your store open today?,Our store is open until 9 PM today.,store_hours
+What time do you open?,"Our store opens at 9 AM, Monday through Friday.",store_hours
+What time do you open?,"Our store opens at 9 AM, Monday through Friday.",store_hours
+What time does your store close?,Our store closes at 9 PM on weekdays and weekends.,store_hours
+Do you open on holidays?,Our store is open on most holidays. Please visit our website for holiday-specific hours.,store_hours
+How early can I visit your store?,Our store opens at 9 AM on weekdays and 10 AM on weekends.,store_hours
+Do you open on holidays?,Our store is open on most holidays. Please visit our website for holiday-specific hours.,store_hours
+Can I visit the store on weekends?,"Yes, our store is open on weekends, from 10 AM to 8 PM.",store_hours
+Can I visit your store late in the evening?,"Our store is open until 9 PM on weekdays. However, we close earlier on weekends.",store_hours
+Can I track my order if I didn’t get a tracking number?,"If you did not receive a tracking number, please contact customer support and we will assist you.",track_order
+Can I track international orders?,"Yes, international orders come with tracking numbers. You can track them using the provided tracking number.",track_order
+How can I track my order?,You can track your order using the tracking number provided in your shipping confirmation email.,track_order
+Can you help me track my order?,"Yes, please provide your order number, and we will help you track the status of your shipment.",track_order
+Where can I find my order tracking number?,"Your tracking number is included in the shipping confirmation email, along with a link to track the package.",track_order
+How can I track an international order?,International orders can be tracked with the tracking number provided. Please note updates may be slower depending on the destination country.,track_order
+Can I track my order if I didn’t get a tracking number?,"If you did not receive a tracking number, please contact customer support and we will assist you.",track_order
+Why is my order not showing up in tracking?,Sometimes tracking information is updated late. You can try again in a few hours or contact us for further assistance.,track_order
+Can you help me track my order?,"Yes, please provide your order number, and we will help you track the status of your shipment.",track_order
+How can I track my order?,You can track your order using the tracking number provided in your shipping confirmation email.,track_order
+Why is my order not showing up in tracking?,Sometimes tracking information is updated late. You can try again in a few hours or contact us for further assistance.,track_order
+Can I track my order if I didn’t get a tracking number?,"If you did not receive a tracking number, please contact customer support and we will assist you.",track_order
+How can I track my order?,You can track your order using the tracking link in your email.,track_order
+Can you help me track my package?,Sure! You can track your package using the tracking number provided in your shipping confirmation email.,track_order
+How do I track my order?,You can track your order using the tracking number provided in your shipping confirmation email.,track_order
+Why is my order not showing up in tracking?,Sometimes tracking information is updated late. You can try again in a few hours or contact us for further assistance.,track_order
+How can I track an international order?,International orders can be tracked with the tracking number provided. Please note updates may be slower depending on the destination country.,track_order
+I didn’t get a tracking number. How can I track my order?,"If you didn’t receive a tracking number, please check your spam folder, or contact us and we’ll provide the details.",track_order
+Can I add more items to my order after it’s placed?,"Unfortunately, you cannot modify your order once it has been placed, but you can cancel it and reorder.",modify_order
+Can I modify my order after placing it?,"Once an order is placed, we cannot modify it, but you may cancel it within a short time frame before it is processed. Please contact support immediately for assistance.",modify_order
+Can I update my shipping address after ordering?,"If your order hasn't shipped yet, we can update the shipping address. Please contact us immediately.",modify_order
+Can I change my order after it’s been placed?,"Once an order is placed, it cannot be modified. However, you may be able to cancel the order and place a new one.",modify_order
+Can I remove an item from my order?,"If your order hasn’t been processed yet, you can remove items by contacting customer service.",modify_order
+How can I modify my order?,"Orders cannot be modified once placed. If you need changes, please cancel the order and place a new one.",modify_order
+Can I change my order after it’s been placed?,"Once an order is placed, it cannot be modified. However, you may be able to cancel the order and place a new one.",modify_order
+Can I update my shipping address after ordering?,"If your order hasn't shipped yet, we can update the shipping address. Please contact us immediately.",modify_order
+Can I update my shipping address after ordering?,"If your order hasn't shipped yet, we can update the shipping address. Please contact us immediately.",modify_order
+Can I update my shipping address after ordering?,"If your order hasn't shipped yet, we can update the shipping address. Please contact us immediately.",modify_order
+Can I remove an item from my order?,"If your order hasn’t been processed yet, you can remove items by contacting customer service.",modify_order
+How can I modify my order?,"Orders cannot be modified once placed. If you need changes, please cancel the order and place a new one.",modify_order
+Can I remove an item from my order?,"If your order hasn’t been processed yet, you can remove items by contacting customer service.",modify_order
+Can I change my order after I’ve placed it?,"Unfortunately, we cannot change an order after it's been placed, but you can cancel it within a short time frame.",modify_order
+Can I change the shipping address after placing my order?,You may be able to change your shipping address if your order hasn’t been processed yet. Please contact customer service.,modify_order
+How do I change the payment method on my order?,"Once an order is placed, the payment method cannot be changed. You would need to cancel and place a new order with the updated payment method.",modify_order
+Can I remove an item from my order?,"If your order hasn’t been processed yet, you can remove items by contacting customer service.",modify_order
+Can I change my order after I’ve placed it?,"Unfortunately, we cannot change an order after it's been placed, but you can cancel it within a short time frame.",modify_order
+Can I get a refund if the product is defective?,"Yes, defective items can be refunded or replaced. Please contact us within 7 days of receiving the item.",refund_process
+Can I get a refund for an item I don’t like?,Refunds can be requested for unwanted items as long as they are within the return window and in original condition.,refund_process
+Can I get a refund if my item is on sale?,"Yes, you can request a refund on sale items, as long as they meet the return criteria.",refund_process
+Can I get a refund if the product is defective?,"Yes, defective items can be refunded or replaced. Please contact us within 7 days of receiving the item.",refund_process
+Can I get a refund if my item is on sale?,"Yes, you can request a refund on sale items, as long as they meet the return criteria.",refund_process
+Can I get a refund?,Refunds are processed within 5–7 business days after approval.,refund_process
+Can I get a refund if my item is on sale?,"Yes, you can request a refund on sale items, as long as they meet the return criteria.",refund_process
+How long does a refund take?,"Refunds are processed within 5-7 business days after approval, depending on your payment method.",refund_process
+How long does it take to process a refund?,Refunds typically take 5-7 business days to process once they’ve been approved.,refund_process
+Will my shipping costs be refunded?,Shipping costs are only refunded if the item is defective or if the return is due to an error on our part.,refund_process
+How long does it take to process a refund?,Refunds typically take 5-7 business days to process once they’ve been approved.,refund_process
+Do I need to return the item to get a refund?,"Yes, most refunds require the item to be returned in original condition. Please check our return policy for more details.",refund_process
+Can I get a refund?,Refunds are processed within 5–7 business days after approval.,refund_process
+How long does a refund take?,"Refunds are processed within 5-7 business days after approval, depending on your payment method.",refund_process
+How long does it take to get a refund?,Refunds are processed within 5-7 business days. It may take longer depending on the payment method.,refund_process
+How do I request a refund for an item?,"To request a refund, please contact customer support with your order number and reason for the return.",refund_process
+Can I get a refund if I changed my mind?,"If the item is unopened and in original condition, you can return it for a refund within the allowed return period.",refund_process
+Do I need to return the item to get a refund?,"Yes, most refunds require the item to be returned in original condition. Please check our return policy for more details.",refund_process
+Can I buy a gift card from your store?,"Yes, you can purchase gift cards online or at our physical store locations.",gift_cards
+Can I use my gift card with other promotions?,"Yes, gift cards can be combined with other discounts and promotions during checkout.",gift_cards
+How do I redeem my gift card?,"To redeem your gift card, simply enter the card number at checkout or provide it to our store cashier.",gift_cards
+Do you sell digital gift cards?,"Yes, we offer digital gift cards that can be emailed to the recipient.",gift_cards
+Where can I purchase a gift card?,You can buy gift cards from our website or in physical stores.,gift_cards
+Can I use a gift card for online purchases?,"Yes, gift cards can be used for both online and in-store purchases.",gift_cards
+Where can I use my gift card?,You can use gift cards both in-store and online at checkout.,gift_cards
+Where can I use my gift card?,You can use gift cards both in-store and online at checkout.,gift_cards
+Where can I purchase a gift card?,You can buy gift cards from our website or in physical stores.,gift_cards
+Where can I use my gift card?,You can use gift cards both in-store and online at checkout.,gift_cards
+Can I buy a gift card online?,"Yes, you can purchase gift cards directly from our website.",gift_cards
+Can I buy a gift card from your store?,"Yes, you can purchase gift cards online or at our physical store locations.",gift_cards
+Where can I use my gift card?,You can use gift cards both in-store and online at checkout.,gift_cards
+Can I buy a gift card from your store?,"Yes, you can purchase gift cards online or at our physical store locations.",gift_cards
+Can I use a gift card for online purchases?,"Yes, gift cards can be used for both online and in-store purchases.",gift_cards
+How do I redeem my gift card?,"To redeem your gift card, simply enter the card number at checkout or provide it to our store cashier.",gift_cards
+Where can I purchase a gift card?,You can buy gift cards from our website or in physical stores.,gift_cards
+Can I check the balance of my gift card?,"Yes, you can check your gift card balance by visiting our website or contacting customer service.",gift_cards
+What forms of payment do you accept?,"We accept Visa, Mastercard, PayPal, Apple Pay, and Google Pay.",payment_methods
+What payment methods do you accept?,"We accept Visa, Mastercard, PayPal, and more.",payment_methods
+Can I pay using a gift card?,"Yes, you can pay with a gift card during checkout on our website or in-store.",payment_methods
+Can I pay with an international credit card?,"Yes, we accept international credit cards for orders from any country.",payment_methods
+Can I use multiple payment methods?,"Yes, you can use multiple payment methods such as a combination of a credit card and a gift card during checkout.",payment_methods
+Do you accept Bitcoin or other cryptocurrencies?,"Currently, we do not accept Bitcoin or other cryptocurrencies as payment.",payment_methods
+Do you accept Bitcoin or other cryptocurrencies?,"Currently, we do not accept Bitcoin or other cryptocurrencies as payment.",payment_methods
+Can I use multiple payment methods?,"Yes, you can use multiple payment methods such as a combination of a credit card and a gift card during checkout.",payment_methods
+Can I pay using a gift card?,"Yes, you can pay with a gift card during checkout on our website or in-store.",payment_methods
+What forms of payment do you accept?,"We accept Visa, Mastercard, PayPal, Apple Pay, and Google Pay.",payment_methods
+Can I pay with an international credit card?,"Yes, we accept international credit cards for orders from any country.",payment_methods
+Can I pay with an international credit card?,"Yes, we accept international credit cards for orders from any country.",payment_methods
+Can I pay with PayPal?,"Yes, we accept PayPal as a payment method.",payment_methods
+Can I use multiple payment methods?,"Yes, you can use multiple payment methods such as a combination of a credit card and a gift card during checkout.",payment_methods
+What forms of payment do you accept?,"We accept Visa, Mastercard, PayPal, Apple Pay, and Google Pay.",payment_methods
+Do you accept Bitcoin or other cryptocurrencies?,"Currently, we do not accept Bitcoin or other cryptocurrencies as payment.",payment_methods
+Can I pay using a gift card?,"Yes, you can pay with a gift card during checkout on our website or in-store.",payment_methods
+Do you accept Bitcoin or other cryptocurrencies?,"Currently, we do not accept Bitcoin or other cryptocurrencies as payment.",payment_methods
+Can I earn loyalty points on sale items?,"Yes, you can earn points on sale items, except where otherwise specified in the terms and conditions.",loyalty_program
+Is there an expiration for loyalty points?,"Yes, loyalty points expire after one year from the date of earning. Be sure to use them before they expire!",loyalty_program
+Can I earn rewards with purchases?,"Yes, our loyalty program lets you earn points and redeem them for discounts and rewards.",loyalty_program
+Do you have a rewards program?,"Yes, we have a loyalty program that lets you earn points for every purchase and redeem them for rewards.",loyalty_program
+Do you offer extra points for referrals?,"Yes, we offer extra loyalty points when you refer a friend who makes a purchase.",loyalty_program
+Is there an expiration for loyalty points?,"Yes, loyalty points expire after one year from the date of earning. Be sure to use them before they expire!",loyalty_program
+Is there an expiration for loyalty points?,"Yes, loyalty points expire after one year from the date of earning. Be sure to use them before they expire!",loyalty_program
+How can I join the loyalty program?,You can sign up for our loyalty program on our website or in-store to start earning points on your purchases.,loyalty_program
+How can I join your loyalty program?,"You can sign up for our loyalty program online or in-store, and start earning rewards with your first purchase.",loyalty_program
+Is there an expiration for loyalty points?,"Yes, loyalty points expire after one year from the date of earning. Be sure to use them before they expire!",loyalty_program
+How can I join your loyalty program?,"You can sign up for our loyalty program online or in-store, and start earning rewards with your first purchase.",loyalty_program
+Do you have a loyalty program?,"Yes, join our loyalty program to earn points on every purchase.",loyalty_program
+How does your loyalty program work?,"Our loyalty program rewards you with points for every purchase, which you can redeem for discounts or rewards.",loyalty_program
+Do you have a loyalty program?,"Yes, join our loyalty program to earn points on every purchase.",loyalty_program
+Do you offer extra points for referrals?,"Yes, we offer extra loyalty points when you refer a friend who makes a purchase.",loyalty_program
+Do you have a rewards program?,"Yes, we have a loyalty program that lets you earn points for every purchase and redeem them for rewards.",loyalty_program
+Can I use my loyalty points for discounts?,"Yes, you can redeem your loyalty points for discounts on your future purchases.",loyalty_program
+Is there an expiration for loyalty points?,"Yes, loyalty points expire after one year from the date of earning. Be sure to use them before they expire!",loyalty_program
+How do I change the number of items in my order?,"To change the number of items in your order, please contact customer service as soon as possible before the order is processed.",change_quantity
+How do I change the number of items in my order?,"To change the number of items in your order, please contact customer service as soon as possible before the order is processed.",change_quantity
+Can I add more items to my order after it’s placed?,"Once an order is placed, the items cannot be added unless you cancel and place a new order.",change_quantity
+How do I increase the quantity of an item in my order?,You can adjust the quantity of items in your order before it’s shipped by contacting us immediately.,change_quantity
+Can I increase the quantity of items in my order?,"If your order has not yet been processed, you can contact customer support to change the quantity.",change_quantity
+How do I increase the quantity of an item in my order?,You can adjust the quantity of items in your order before it’s shipped by contacting us immediately.,change_quantity
+Can I add more items to my order after it’s placed?,"Once an order is placed, the items cannot be added unless you cancel and place a new order.",change_quantity
+How do I increase the quantity of an item in my order?,You can adjust the quantity of items in your order before it’s shipped by contacting us immediately.,change_quantity
+How do I change the number of items in my order?,"To change the number of items in your order, please contact customer service as soon as possible before the order is processed.",change_quantity
+I want to change the quantity of my order. Can I do that?,"If your order has not been processed yet, we can modify the quantity for you. Please reach out to us as soon as possible.",change_quantity
+How do I change the number of items in my order?,"To change the number of items in your order, please contact customer service as soon as possible before the order is processed.",change_quantity
+Can I change the quantity of an item in my order?,"If your order hasn't been processed yet, you can contact support to adjust the quantity of an item. Once the order is shipped, changes can no longer be made.",change_quantity
+Can I add more items to my order after it’s placed?,"Once an order is placed, the items cannot be added unless you cancel and place a new order.",change_quantity
+Can I change the quantity of an item after placing an order?,"If your order hasn't been processed yet, you can change the quantity by contacting customer support.",change_quantity
+How do I change the quantity of my order?,"If your order hasn't been processed yet, you can change the quantity by contacting customer support.",change_quantity
+Can I add more items to my order after it’s placed?,"Once an order is placed, the items cannot be added unless you cancel and place a new order.",change_quantity
+How do I change the number of items in my order?,"To change the number of items in your order, please contact customer service as soon as possible before the order is processed.",change_quantity
+Can I change the quantity of an item in my order?,"If your order hasn't been processed yet, you can contact support to adjust the quantity of an item. Once the order is shipped, changes can no longer be made.",change_quantity
+Why is my order delayed?,Delays can happen due to high demand or carrier issues. Let me check your order.,order_delay
+Why hasn’t my order arrived?,"Sometimes, orders are delayed due to high demand or carrier issues. Let me check the status for you.",order_delay
+Why is my order delayed?,"Orders can sometimes be delayed due to high demand, stock availability, or shipping carrier issues. Let me check the status for you.",order_delay
+Why is my order delayed?,Delays can happen due to high demand or carrier issues. Let me check your order.,order_delay
+Why is my shipment taking longer than expected?,"Shipping delays can happen due to various factors, including carrier issues or high order volumes. Let me look into it for you.",order_delay
+Why is my order delayed?,"Orders can sometimes be delayed due to high demand, stock availability, or shipping carrier issues. Let me check the status for you.",order_delay
+Why is my shipment taking longer than expected?,"Shipping delays can happen due to various factors, including carrier issues or high order volumes. Let me look into it for you.",order_delay
+My order is delayed. How can I track it?,"You can track your order using the tracking number in your shipping confirmation email. If there’s an issue, feel free to contact us.",order_delay
+Why is my order delayed?,"Orders can sometimes be delayed due to high demand, stock availability, or shipping carrier issues. Let me check the status for you.",order_delay
+Why is my shipment taking longer than expected?,"Shipping delays can happen due to various factors, including carrier issues or high order volumes. Let me look into it for you.",order_delay
+Can you help me track a delayed order?,"Yes, please provide the order number, and we can check the status of your delayed shipment for you.",order_delay
+Why is my order delayed?,Delays can happen due to high demand or carrier issues. Let me check your order.,order_delay
+Can you help me track a delayed order?,"Yes, please provide the order number, and we can check the status of your delayed shipment for you.",order_delay
+My order is delayed. How can I track it?,"You can track your order using the tracking number in your shipping confirmation email. If there’s an issue, feel free to contact us.",order_delay
+My order is delayed. How can I track it?,"You can track your order using the tracking number in your shipping confirmation email. If there’s an issue, feel free to contact us.",order_delay
+My order is delayed. How can I track it?,"You can track your order using the tracking number in your shipping confirmation email. If there’s an issue, feel free to contact us.",order_delay
+Why is my shipment taking longer than expected?,"Shipping delays can happen due to various factors, including carrier issues or high order volumes. Let me look into it for you.",order_delay
+Why is my order delayed?,Delays can happen due to high demand or carrier issues. Let me check your order.,order_delay
+How do I cancel my order?,"To cancel your order, please contact customer service immediately if the order has not been shipped yet.",cancel_order
+"I changed my mind, how do I cancel my order?","If your order hasn't shipped, you can cancel it by contacting customer service immediately.",cancel_order
+How can I cancel my order?,You can cancel your order from your account if it hasn't been shipped yet.,cancel_order
+I want to cancel my order. How can I do that?,"If your order hasn’t been shipped yet, please get in touch with our support team to cancel it.",cancel_order
+"I changed my mind, how do I cancel my order?","If your order hasn't shipped, you can cancel it by contacting customer service immediately.",cancel_order
+I want to cancel my order. How can I do that?,"If your order hasn’t been shipped yet, please get in touch with our support team to cancel it.",cancel_order
+"I changed my mind, how do I cancel my order?","If your order hasn't shipped, you can cancel it by contacting customer service immediately.",cancel_order
+"I changed my mind, how do I cancel my order?","If your order hasn't shipped, you can cancel it by contacting customer service immediately.",cancel_order
+Can I cancel an order that’s already shipped?,"Unfortunately, once an order has been shipped, it cannot be canceled. Please contact us for return instructions.",cancel_order
+"I changed my mind, how do I cancel my order?","If your order hasn't shipped, you can cancel it by contacting customer service immediately.",cancel_order
+I want to cancel my order. How can I do that?,"If your order hasn’t been shipped yet, please get in touch with our support team to cancel it.",cancel_order
+How can I cancel my order?,You can cancel your order from your account if it hasn't been shipped yet.,cancel_order
+How do I cancel my order?,"To cancel your order, please contact customer service immediately if the order has not been shipped yet.",cancel_order
+Can I cancel an order that’s already shipped?,"Unfortunately, once an order has been shipped, it cannot be canceled. Please contact us for return instructions.",cancel_order
+I want to cancel my order. How can I do that?,"If your order hasn’t been shipped yet, please get in touch with our support team to cancel it.",cancel_order
+"I changed my mind, how do I cancel my order?","If your order hasn't shipped, you can cancel it by contacting customer service immediately.",cancel_order
+How do I cancel my order?,"To cancel your order, please contact customer service immediately if the order has not been shipped yet.",cancel_order
+Can I cancel an order that’s already shipped?,"Unfortunately, once an order has been shipped, it cannot be canceled. Please contact us for return instructions.",cancel_order
+What is your return policy?,Our return policy allows returns within 30 days of purchase.,return_policy
+Can I return a gift?,"Yes, gifts can be returned within 30 days. You may need the receipt or order number to process the return.",return_policy
+Can I return an item after purchase?,"Yes, items can be returned within 30 days of purchase, as long as they are in original condition.",return_policy
+How do I return an item?,"To return an item, you can initiate the process through your account or by contacting our customer service team.",return_policy
+How long do I have to return an item?,Our return policy gives you 30 days from the purchase date to return items in original condition.,return_policy
+What is your return policy?,Our return policy allows returns within 30 days of purchase for most items. Certain conditions apply.,return_policy
+What is your return policy?,Our return policy allows returns within 30 days of purchase for most items. Certain conditions apply.,return_policy
+How long do I have to return an item?,Our return policy gives you 30 days from the purchase date to return items in original condition.,return_policy
+Can I return a gift?,"Yes, gifts can be returned within 30 days. You may need the receipt or order number to process the return.",return_policy
+Can I return a gift?,"Yes, gifts can be returned within 30 days. You may need the receipt or order number to process the return.",return_policy
+Can I return an item after purchase?,"Yes, items can be returned within 30 days of purchase, as long as they are in original condition.",return_policy
+How long do I have to return an item?,Our return policy gives you 30 days from the purchase date to return items in original condition.,return_policy
+What is your return policy?,Our return policy allows returns within 30 days of purchase for most items. Certain conditions apply.,return_policy
+What is your return policy?,Our return policy allows returns within 30 days of purchase for most items. Certain conditions apply.,return_policy
+What is your return policy?,Our return policy allows returns within 30 days of purchase for most items. Certain conditions apply.,return_policy
+How long do I have to return an item?,Our return policy gives you 30 days from the purchase date to return items in original condition.,return_policy
+How long do I have to return an item?,Our return policy gives you 30 days from the purchase date to return items in original condition.,return_policy
+Can I return a gift?,"Yes, gifts can be returned within 30 days. You may need the receipt or order number to process the return.",return_policy
+Are there any student discounts available?,"Yes, we provide a 10% discount on all items with a student ID.",student_discount
+Do you have discounts for students?,"Yes, we offer a 10% discount for students with a valid ID.",student_discount
+Do you have discounts for students?,"Yes, we offer a 10% discount for students with a valid ID.",student_discount
+Are there any student discounts available?,"Yes, we provide a 10% discount on all items with a student ID.",student_discount
+Are there any student discounts available?,"Yes, we provide a 10% discount on all items with a student ID.",student_discount
+Do you have discounts for students?,"Yes, we offer a 10% discount for students with a valid ID.",student_discount
+Do you have discounts for students?,"Yes, we offer a 10% discount for students with a valid ID.",student_discount
+Do you have discounts for students?,"Yes, we offer a 10% discount for students with a valid ID.",student_discount
+Do you have discounts for students?,"Yes, we offer a 10% discount for students with a valid ID.",student_discount
+Do you have discounts for students?,"Yes, we offer a 10% discount for students with a valid ID.",student_discount
+Are there any student discounts available?,"Yes, we provide a 10% discount on all items with a student ID.",student_discount
+Are there any student discounts available?,"Yes, we provide a 10% discount on all items with a student ID.",student_discount
+Are there any student discounts available?,"Yes, we provide a 10% discount on all items with a student ID.",student_discount
+Do you have discounts for students?,"Yes, we offer a 10% discount for students with a valid ID.",student_discount
+Do you have discounts for students?,"Yes, we offer a 10% discount for students with a valid ID.",student_discount
+Do you have discounts for students?,"Yes, we offer a 10% discount for students with a valid ID.",student_discount
+Are there any student discounts available?,"Yes, we provide a 10% discount on all items with a student ID.",student_discount
+Are there any student discounts available?,"Yes, we provide a 10% discount on all items with a student ID.",student_discount
+Will you deliver to a P.O. Box?,"Yes, we can deliver to a P.O. Box for most items. However, some carriers may not be able to deliver certain items to P.O. Boxes.",po_box_shipping
+Will you deliver to a P.O. Box?,"Yes, we can deliver to a P.O. Box for most items. However, some carriers may not be able to deliver certain items to P.O. Boxes.",po_box_shipping
+Will you deliver to a P.O. Box?,"Yes, we can deliver to a P.O. Box for most items. However, some carriers may not be able to deliver certain items to P.O. Boxes.",po_box_shipping
+Can I ship to a P.O. Box?,"Yes, we can ship to P.O. Boxes, though some carriers may not be able to deliver certain items to P.O. Boxes. Check the shipping details for specific items.",po_box_shipping
+Will you deliver to a P.O. Box?,"Yes, we can deliver to a P.O. Box for most items. However, some carriers may not be able to deliver certain items to P.O. Boxes.",po_box_shipping
+Can I ship to a P.O. Box?,"Yes, we can ship to P.O. Boxes, though some carriers may not be able to deliver certain items to P.O. Boxes. Check the shipping details for specific items.",po_box_shipping
+Can I ship to a P.O. Box?,"Yes, we can ship to P.O. Boxes, though some carriers may not be able to deliver certain items to P.O. Boxes. Check the shipping details for specific items.",po_box_shipping
+Can I ship to a P.O. Box?,"Yes, we can ship to P.O. Boxes, though some carriers may not be able to deliver certain items to P.O. Boxes. Check the shipping details for specific items.",po_box_shipping
+Will you deliver to a P.O. Box?,"Yes, we can deliver to a P.O. Box for most items. However, some carriers may not be able to deliver certain items to P.O. Boxes.",po_box_shipping
+Will you deliver to a P.O. Box?,"Yes, we can deliver to a P.O. Box for most items. However, some carriers may not be able to deliver certain items to P.O. Boxes.",po_box_shipping
+Can I ship to a P.O. Box?,"Yes, we can ship to P.O. Boxes, though some carriers may not be able to deliver certain items to P.O. Boxes. Check the shipping details for specific items.",po_box_shipping
+Will you deliver to a P.O. Box?,"Yes, we can deliver to a P.O. Box for most items. However, some carriers may not be able to deliver certain items to P.O. Boxes.",po_box_shipping
+Can I ship to a P.O. Box?,"Yes, we can ship to P.O. Boxes, though some carriers may not be able to deliver certain items to P.O. Boxes. Check the shipping details for specific items.",po_box_shipping
+Will you deliver to a P.O. Box?,"Yes, we can deliver to a P.O. Box for most items. However, some carriers may not be able to deliver certain items to P.O. Boxes.",po_box_shipping
+Can I ship to a P.O. Box?,"Yes, we can ship to P.O. Boxes, though some carriers may not be able to deliver certain items to P.O. Boxes. Check the shipping details for specific items.",po_box_shipping
+Can I ship to a P.O. Box?,"Yes, we can ship to P.O. Boxes, though some carriers may not be able to deliver certain items to P.O. Boxes. Check the shipping details for specific items.",po_box_shipping
+Can I ship to a P.O. Box?,"Yes, we can ship to P.O. Boxes, though some carriers may not be able to deliver certain items to P.O. Boxes. Check the shipping details for specific items.",po_box_shipping
+Can I ship to a P.O. Box?,"Yes, we can ship to P.O. Boxes, though some carriers may not be able to deliver certain items to P.O. Boxes. Check the shipping details for specific items.",po_box_shipping
+Do you offer a military discount?,"Yes, we offer a 15% discount for military personnel with valid ID. You can apply this discount during checkout.",military_discount
+Is there a discount for military personnel?,"Yes, we offer a 15% military discount with valid ID. Apply it at checkout.",military_discount
+Do you offer a military discount?,"Yes, we offer a 15% discount for military personnel with valid ID. You can apply this discount during checkout.",military_discount
+Do you offer a military discount?,"Yes, we offer a 15% discount for military personnel with valid ID. You can apply this discount during checkout.",military_discount
+Is there a discount for military personnel?,"Yes, we offer a 15% military discount with valid ID. Apply it at checkout.",military_discount
+Do you offer a military discount?,"Yes, we offer a 15% discount for military personnel with valid ID. You can apply this discount during checkout.",military_discount
+Do you offer a military discount?,"Yes, we offer a 15% discount for military personnel with valid ID. You can apply this discount during checkout.",military_discount
+Do you offer a military discount?,"Yes, we offer a 15% discount for military personnel with valid ID. You can apply this discount during checkout.",military_discount
+Is there a discount for military personnel?,"Yes, we offer a 15% military discount with valid ID. Apply it at checkout.",military_discount
+Do you offer a military discount?,"Yes, we offer a 15% discount for military personnel with valid ID. You can apply this discount during checkout.",military_discount
+Do you offer a military discount?,"Yes, we offer a 15% discount for military personnel with valid ID. You can apply this discount during checkout.",military_discount
+Do you offer a military discount?,"Yes, we offer a 15% discount for military personnel with valid ID. You can apply this discount during checkout.",military_discount
+Is there a discount for military personnel?,"Yes, we offer a 15% military discount with valid ID. Apply it at checkout.",military_discount
+Do you offer a military discount?,"Yes, we offer a 15% discount for military personnel with valid ID. You can apply this discount during checkout.",military_discount
+Is there a discount for military personnel?,"Yes, we offer a 15% military discount with valid ID. Apply it at checkout.",military_discount
+Do you offer a military discount?,"Yes, we offer a 15% discount for military personnel with valid ID. You can apply this discount during checkout.",military_discount
+Is there a discount for military personnel?,"Yes, we offer a 15% military discount with valid ID. Apply it at checkout.",military_discount
+Do you offer a military discount?,"Yes, we offer a 15% discount for military personnel with valid ID. You can apply this discount during checkout.",military_discount
+How do I change my email address on my account?,"You can change your email address by logging into your account and navigating to the 'Account Settings' page. If you need help, contact customer support.",change_email
+How do I change my email address on my account?,"You can change your email address by logging into your account and navigating to the 'Account Settings' page. If you need help, contact customer support.",change_email
+How can I update my email address on your website?,"Log into your account, go to 'Account Settings', and update your email address. Contact support if you need assistance.",change_email
+How do I change my email address on my account?,"You can change your email address by logging into your account and navigating to the 'Account Settings' page. If you need help, contact customer support.",change_email
+How can I update my email address on your website?,"Log into your account, go to 'Account Settings', and update your email address. Contact support if you need assistance.",change_email
+How can I update my email address on your website?,"Log into your account, go to 'Account Settings', and update your email address. Contact support if you need assistance.",change_email
+How do I change my email address on my account?,"You can change your email address by logging into your account and navigating to the 'Account Settings' page. If you need help, contact customer support.",change_email
+How do I change my email address on my account?,"You can change your email address by logging into your account and navigating to the 'Account Settings' page. If you need help, contact customer support.",change_email
+How can I update my email address on your website?,"Log into your account, go to 'Account Settings', and update your email address. Contact support if you need assistance.",change_email
+How can I update my email address on your website?,"Log into your account, go to 'Account Settings', and update your email address. Contact support if you need assistance.",change_email
+How do I change my email address on my account?,"You can change your email address by logging into your account and navigating to the 'Account Settings' page. If you need help, contact customer support.",change_email
+How can I update my email address on your website?,"Log into your account, go to 'Account Settings', and update your email address. Contact support if you need assistance.",change_email
+How do I change my email address on my account?,"You can change your email address by logging into your account and navigating to the 'Account Settings' page. If you need help, contact customer support.",change_email
+How do I change my email address on my account?,"You can change your email address by logging into your account and navigating to the 'Account Settings' page. If you need help, contact customer support.",change_email
+How can I update my email address on your website?,"Log into your account, go to 'Account Settings', and update your email address. Contact support if you need assistance.",change_email
+How do I change my email address on my account?,"You can change your email address by logging into your account and navigating to the 'Account Settings' page. If you need help, contact customer support.",change_email
+How can I update my email address on your website?,"Log into your account, go to 'Account Settings', and update your email address. Contact support if you need assistance.",change_email
+How do I change my email address on my account?,"You can change your email address by logging into your account and navigating to the 'Account Settings' page. If you need help, contact customer support.",change_email
+Can I pre-order an out-of-stock item?,"For select items, we offer pre-orders. If the item is available for pre-order, you’ll be able to place an order with an expected shipment date.",pre_order
+How do I pre-order an item that's out of stock?,"If an item is out of stock but available for pre-order, you can place your order and it will ship once available.",pre_order
+How do I pre-order an item that's out of stock?,"If an item is out of stock but available for pre-order, you can place your order and it will ship once available.",pre_order
+Can I pre-order an out-of-stock item?,"For select items, we offer pre-orders. If the item is available for pre-order, you’ll be able to place an order with an expected shipment date.",pre_order
+How do I pre-order an item that's out of stock?,"If an item is out of stock but available for pre-order, you can place your order and it will ship once available.",pre_order
+Can I pre-order an out-of-stock item?,"For select items, we offer pre-orders. If the item is available for pre-order, you’ll be able to place an order with an expected shipment date.",pre_order
+Can I pre-order an out-of-stock item?,"For select items, we offer pre-orders. If the item is available for pre-order, you’ll be able to place an order with an expected shipment date.",pre_order
+Can I pre-order an out-of-stock item?,"For select items, we offer pre-orders. If the item is available for pre-order, you’ll be able to place an order with an expected shipment date.",pre_order
+Can I pre-order an out-of-stock item?,"For select items, we offer pre-orders. If the item is available for pre-order, you’ll be able to place an order with an expected shipment date.",pre_order
+Can I pre-order an out-of-stock item?,"For select items, we offer pre-orders. If the item is available for pre-order, you’ll be able to place an order with an expected shipment date.",pre_order
+How do I pre-order an item that's out of stock?,"If an item is out of stock but available for pre-order, you can place your order and it will ship once available.",pre_order
+Can I pre-order an out-of-stock item?,"For select items, we offer pre-orders. If the item is available for pre-order, you’ll be able to place an order with an expected shipment date.",pre_order
+Can I pre-order an out-of-stock item?,"For select items, we offer pre-orders. If the item is available for pre-order, you’ll be able to place an order with an expected shipment date.",pre_order
+Can I pre-order an out-of-stock item?,"For select items, we offer pre-orders. If the item is available for pre-order, you’ll be able to place an order with an expected shipment date.",pre_order
+How do I pre-order an item that's out of stock?,"If an item is out of stock but available for pre-order, you can place your order and it will ship once available.",pre_order
+How do I pre-order an item that's out of stock?,"If an item is out of stock but available for pre-order, you can place your order and it will ship once available.",pre_order
+Can I pre-order an out-of-stock item?,"For select items, we offer pre-orders. If the item is available for pre-order, you’ll be able to place an order with an expected shipment date.",pre_order
+How do I pre-order an item that's out of stock?,"If an item is out of stock but available for pre-order, you can place your order and it will ship once available.",pre_order
+What is your policy on handling damaged or defective items?,"If you receive a defective item, please contact customer support immediately. We will guide you through the process of returning or exchanging the item.",defective_items_policy
+What is your policy on handling damaged or defective items?,"If you receive a defective item, please contact customer support immediately. We will guide you through the process of returning or exchanging the item.",defective_items_policy
+What is your policy on handling damaged or defective items?,"If you receive a defective item, please contact customer support immediately. We will guide you through the process of returning or exchanging the item.",defective_items_policy
+What is your policy on handling damaged or defective items?,"If you receive a defective item, please contact customer support immediately. We will guide you through the process of returning or exchanging the item.",defective_items_policy
+My item is defective. What do I do?,"If you receive a defective item, contact our customer service immediately for a return or exchange.",defective_items_policy
+What is your policy on handling damaged or defective items?,"If you receive a defective item, please contact customer support immediately. We will guide you through the process of returning or exchanging the item.",defective_items_policy
+What is your policy on handling damaged or defective items?,"If you receive a defective item, please contact customer support immediately. We will guide you through the process of returning or exchanging the item.",defective_items_policy
+What is your policy on handling damaged or defective items?,"If you receive a defective item, please contact customer support immediately. We will guide you through the process of returning or exchanging the item.",defective_items_policy
+My item is defective. What do I do?,"If you receive a defective item, contact our customer service immediately for a return or exchange.",defective_items_policy
+My item is defective. What do I do?,"If you receive a defective item, contact our customer service immediately for a return or exchange.",defective_items_policy
+What is your policy on handling damaged or defective items?,"If you receive a defective item, please contact customer support immediately. We will guide you through the process of returning or exchanging the item.",defective_items_policy
+My item is defective. What do I do?,"If you receive a defective item, contact our customer service immediately for a return or exchange.",defective_items_policy
+My item is defective. What do I do?,"If you receive a defective item, contact our customer service immediately for a return or exchange.",defective_items_policy
+What is your policy on handling damaged or defective items?,"If you receive a defective item, please contact customer support immediately. We will guide you through the process of returning or exchanging the item.",defective_items_policy
+What is your policy on handling damaged or defective items?,"If you receive a defective item, please contact customer support immediately. We will guide you through the process of returning or exchanging the item.",defective_items_policy
+What is your policy on handling damaged or defective items?,"If you receive a defective item, please contact customer support immediately. We will guide you through the process of returning or exchanging the item.",defective_items_policy
+What is your policy on handling damaged or defective items?,"If you receive a defective item, please contact customer support immediately. We will guide you through the process of returning or exchanging the item.",defective_items_policy
+My item is defective. What do I do?,"If you receive a defective item, contact our customer service immediately for a return or exchange.",defective_items_policy
+Will you match prices if I find a lower price elsewhere?,"Yes, we offer price matching on identical items within 30 days of purchase. Contact support for assistance.",price_matching
+Do you offer price matching?,We offer price matching on identical items within 30 days of purchase. Please contact support for assistance if you find a lower price elsewhere.,price_matching
+Do you offer price matching?,We offer price matching on identical items within 30 days of purchase. Please contact support for assistance if you find a lower price elsewhere.,price_matching
+Will you match prices if I find a lower price elsewhere?,"Yes, we offer price matching on identical items within 30 days of purchase. Contact support for assistance.",price_matching
+Will you match prices if I find a lower price elsewhere?,"Yes, we offer price matching on identical items within 30 days of purchase. Contact support for assistance.",price_matching
+Do you offer price matching?,We offer price matching on identical items within 30 days of purchase. Please contact support for assistance if you find a lower price elsewhere.,price_matching
+Will you match prices if I find a lower price elsewhere?,"Yes, we offer price matching on identical items within 30 days of purchase. Contact support for assistance.",price_matching
+Do you offer price matching?,We offer price matching on identical items within 30 days of purchase. Please contact support for assistance if you find a lower price elsewhere.,price_matching
+Will you match prices if I find a lower price elsewhere?,"Yes, we offer price matching on identical items within 30 days of purchase. Contact support for assistance.",price_matching
+Will you match prices if I find a lower price elsewhere?,"Yes, we offer price matching on identical items within 30 days of purchase. Contact support for assistance.",price_matching
+Will you match prices if I find a lower price elsewhere?,"Yes, we offer price matching on identical items within 30 days of purchase. Contact support for assistance.",price_matching
+Do you offer price matching?,We offer price matching on identical items within 30 days of purchase. Please contact support for assistance if you find a lower price elsewhere.,price_matching
+Do you offer price matching?,We offer price matching on identical items within 30 days of purchase. Please contact support for assistance if you find a lower price elsewhere.,price_matching
+Do you offer price matching?,We offer price matching on identical items within 30 days of purchase. Please contact support for assistance if you find a lower price elsewhere.,price_matching
+Do you offer price matching?,We offer price matching on identical items within 30 days of purchase. Please contact support for assistance if you find a lower price elsewhere.,price_matching
+Do you offer price matching?,We offer price matching on identical items within 30 days of purchase. Please contact support for assistance if you find a lower price elsewhere.,price_matching
+Will you match prices if I find a lower price elsewhere?,"Yes, we offer price matching on identical items within 30 days of purchase. Contact support for assistance.",price_matching
+Will you match prices if I find a lower price elsewhere?,"Yes, we offer price matching on identical items within 30 days of purchase. Contact support for assistance.",price_matching
+I need a copy of my receipt. How can I get it?,You can access your receipt through your account's order history or contact support for assistance.,copy_receipt
+I need a copy of my receipt. How can I get it?,You can access your receipt through your account's order history or contact support for assistance.,copy_receipt
+I need a copy of my receipt. How can I get it?,You can access your receipt through your account's order history or contact support for assistance.,copy_receipt
+I need a copy of my receipt. How can I get it?,You can access your receipt through your account's order history or contact support for assistance.,copy_receipt
+I need a copy of my receipt. How can I get it?,You can access your receipt through your account's order history or contact support for assistance.,copy_receipt
+How can I get a copy of my receipt?,"If you need a copy of your receipt, you can find it in your order history under your account, or contact support if you need further assistance.",copy_receipt
+How can I get a copy of my receipt?,"If you need a copy of your receipt, you can find it in your order history under your account, or contact support if you need further assistance.",copy_receipt
+How can I get a copy of my receipt?,"If you need a copy of your receipt, you can find it in your order history under your account, or contact support if you need further assistance.",copy_receipt
+How can I get a copy of my receipt?,"If you need a copy of your receipt, you can find it in your order history under your account, or contact support if you need further assistance.",copy_receipt
+How can I get a copy of my receipt?,"If you need a copy of your receipt, you can find it in your order history under your account, or contact support if you need further assistance.",copy_receipt
+I need a copy of my receipt. How can I get it?,You can access your receipt through your account's order history or contact support for assistance.,copy_receipt
+I need a copy of my receipt. How can I get it?,You can access your receipt through your account's order history or contact support for assistance.,copy_receipt
+I need a copy of my receipt. How can I get it?,You can access your receipt through your account's order history or contact support for assistance.,copy_receipt
+I need a copy of my receipt. How can I get it?,You can access your receipt through your account's order history or contact support for assistance.,copy_receipt
+How can I get a copy of my receipt?,"If you need a copy of your receipt, you can find it in your order history under your account, or contact support if you need further assistance.",copy_receipt
+How can I get a copy of my receipt?,"If you need a copy of your receipt, you can find it in your order history under your account, or contact support if you need further assistance.",copy_receipt
+How can I get a copy of my receipt?,"If you need a copy of your receipt, you can find it in your order history under your account, or contact support if you need further assistance.",copy_receipt
+I need a copy of my receipt. How can I get it?,You can access your receipt through your account's order history or contact support for assistance.,copy_receipt
+How can I track my international order?,"Yes, international orders come with tracking numbers, and you can track your order using the link provided.",track_international_order
+How can I track my international order?,"Yes, international orders come with tracking numbers, and you can track your order using the link provided.",track_international_order
+How can I track my international order?,"Yes, international orders come with tracking numbers, and you can track your order using the link provided.",track_international_order
+How can I track my international order?,"Yes, international orders come with tracking numbers, and you can track your order using the link provided.",track_international_order
+Can I track an international order?,"Yes, international orders can be tracked using the tracking number provided. Please note that tracking updates may take longer depending on the destination country.",track_international_order
+Can I track an international order?,"Yes, international orders can be tracked using the tracking number provided. Please note that tracking updates may take longer depending on the destination country.",track_international_order
+Can I track an international order?,"Yes, international orders can be tracked using the tracking number provided. Please note that tracking updates may take longer depending on the destination country.",track_international_order
+How can I track my international order?,"Yes, international orders come with tracking numbers, and you can track your order using the link provided.",track_international_order
+How can I track my international order?,"Yes, international orders come with tracking numbers, and you can track your order using the link provided.",track_international_order
+How can I track my international order?,"Yes, international orders come with tracking numbers, and you can track your order using the link provided.",track_international_order
+How can I track my international order?,"Yes, international orders come with tracking numbers, and you can track your order using the link provided.",track_international_order
+How can I track my international order?,"Yes, international orders come with tracking numbers, and you can track your order using the link provided.",track_international_order
+How can I track my international order?,"Yes, international orders come with tracking numbers, and you can track your order using the link provided.",track_international_order
+Can I track an international order?,"Yes, international orders can be tracked using the tracking number provided. Please note that tracking updates may take longer depending on the destination country.",track_international_order
+Can I track an international order?,"Yes, international orders can be tracked using the tracking number provided. Please note that tracking updates may take longer depending on the destination country.",track_international_order
+How can I track my international order?,"Yes, international orders come with tracking numbers, and you can track your order using the link provided.",track_international_order
+How can I track my international order?,"Yes, international orders come with tracking numbers, and you can track your order using the link provided.",track_international_order
+Can I track an international order?,"Yes, international orders can be tracked using the tracking number provided. Please note that tracking updates may take longer depending on the destination country.",track_international_order
+What should I do if my item is damaged?,"If your item arrives damaged, please contact support within 7 days of receiving your order, and we will assist you with a replacement or refund.",damaged_item
+What should I do if my item is damaged?,"If your item arrives damaged, please contact support within 7 days of receiving your order, and we will assist you with a replacement or refund.",damaged_item
+My item is damaged. What should I do?,"If your item arrives damaged, contact customer support within 7 days of receiving your order for a replacement or refund.",damaged_item
+What should I do if my item is damaged?,"If your item arrives damaged, please contact support within 7 days of receiving your order, and we will assist you with a replacement or refund.",damaged_item
+What should I do if my item is damaged?,"If your item arrives damaged, please contact support within 7 days of receiving your order, and we will assist you with a replacement or refund.",damaged_item
+My item is damaged. What should I do?,"If your item arrives damaged, contact customer support within 7 days of receiving your order for a replacement or refund.",damaged_item
+What should I do if my item is damaged?,"If your item arrives damaged, please contact support within 7 days of receiving your order, and we will assist you with a replacement or refund.",damaged_item
+My item is damaged. What should I do?,"If your item arrives damaged, contact customer support within 7 days of receiving your order for a replacement or refund.",damaged_item
+My item is damaged. What should I do?,"If your item arrives damaged, contact customer support within 7 days of receiving your order for a replacement or refund.",damaged_item
+My item is damaged. What should I do?,"If your item arrives damaged, contact customer support within 7 days of receiving your order for a replacement or refund.",damaged_item
+My item is damaged. What should I do?,"If your item arrives damaged, contact customer support within 7 days of receiving your order for a replacement or refund.",damaged_item
+What should I do if my item is damaged?,"If your item arrives damaged, please contact support within 7 days of receiving your order, and we will assist you with a replacement or refund.",damaged_item
+My item is damaged. What should I do?,"If your item arrives damaged, contact customer support within 7 days of receiving your order for a replacement or refund.",damaged_item
+What should I do if my item is damaged?,"If your item arrives damaged, please contact support within 7 days of receiving your order, and we will assist you with a replacement or refund.",damaged_item
+My item is damaged. What should I do?,"If your item arrives damaged, contact customer support within 7 days of receiving your order for a replacement or refund.",damaged_item
+What should I do if my item is damaged?,"If your item arrives damaged, please contact support within 7 days of receiving your order, and we will assist you with a replacement or refund.",damaged_item
+My item is damaged. What should I do?,"If your item arrives damaged, contact customer support within 7 days of receiving your order for a replacement or refund.",damaged_item
+What should I do if my item is damaged?,"If your item arrives damaged, please contact support within 7 days of receiving your order, and we will assist you with a replacement or refund.",damaged_item
+Where can I leave a product review?,"After your order arrives, you can leave a review on the product page by clicking 'Write a Review' and sharing your thoughts.",product_review
+How do I leave a product review?,"After receiving your order, you will be able to leave a review on the product page by selecting the 'Write a Review' button and sharing your feedback.",product_review
+How do I leave a product review?,"After receiving your order, you will be able to leave a review on the product page by selecting the 'Write a Review' button and sharing your feedback.",product_review
+Where can I leave a product review?,"After your order arrives, you can leave a review on the product page by clicking 'Write a Review' and sharing your thoughts.",product_review
+Where can I leave a product review?,"After your order arrives, you can leave a review on the product page by clicking 'Write a Review' and sharing your thoughts.",product_review
+Where can I leave a product review?,"After your order arrives, you can leave a review on the product page by clicking 'Write a Review' and sharing your thoughts.",product_review
+Where can I leave a product review?,"After your order arrives, you can leave a review on the product page by clicking 'Write a Review' and sharing your thoughts.",product_review
+Where can I leave a product review?,"After your order arrives, you can leave a review on the product page by clicking 'Write a Review' and sharing your thoughts.",product_review
+Where can I leave a product review?,"After your order arrives, you can leave a review on the product page by clicking 'Write a Review' and sharing your thoughts.",product_review
+Where can I leave a product review?,"After your order arrives, you can leave a review on the product page by clicking 'Write a Review' and sharing your thoughts.",product_review
+How do I leave a product review?,"After receiving your order, you will be able to leave a review on the product page by selecting the 'Write a Review' button and sharing your feedback.",product_review
+How do I leave a product review?,"After receiving your order, you will be able to leave a review on the product page by selecting the 'Write a Review' button and sharing your feedback.",product_review
+How do I leave a product review?,"After receiving your order, you will be able to leave a review on the product page by selecting the 'Write a Review' button and sharing your feedback.",product_review
+How do I leave a product review?,"After receiving your order, you will be able to leave a review on the product page by selecting the 'Write a Review' button and sharing your feedback.",product_review
+Where can I leave a product review?,"After your order arrives, you can leave a review on the product page by clicking 'Write a Review' and sharing your thoughts.",product_review
+Where can I leave a product review?,"After your order arrives, you can leave a review on the product page by clicking 'Write a Review' and sharing your thoughts.",product_review
+Where can I leave a product review?,"After your order arrives, you can leave a review on the product page by clicking 'Write a Review' and sharing your thoughts.",product_review
+How do I leave a product review?,"After receiving your order, you will be able to leave a review on the product page by selecting the 'Write a Review' button and sharing your feedback.",product_review
+Can I gift wrap my order?,"Yes, we offer gift wrapping for an additional fee. You can select this option during the checkout process.",gift_wrapping
+Can you wrap my gifts for me?,"Yes, we offer gift wrapping for an extra fee. You can select it during checkout.",gift_wrapping
+Can you wrap my gifts for me?,"Yes, we offer gift wrapping for an extra fee. You can select it during checkout.",gift_wrapping
+Can you wrap my gifts for me?,"Yes, we offer gift wrapping for an extra fee. You can select it during checkout.",gift_wrapping
+Can you wrap my gifts for me?,"Yes, we offer gift wrapping for an extra fee. You can select it during checkout.",gift_wrapping
+Can I gift wrap my order?,"Yes, we offer gift wrapping for an additional fee. You can select this option during the checkout process.",gift_wrapping
+Can I gift wrap my order?,"Yes, we offer gift wrapping for an additional fee. You can select this option during the checkout process.",gift_wrapping
+Can you wrap my gifts for me?,"Yes, we offer gift wrapping for an extra fee. You can select it during checkout.",gift_wrapping
+Can I gift wrap my order?,"Yes, we offer gift wrapping for an additional fee. You can select this option during the checkout process.",gift_wrapping
+Can I gift wrap my order?,"Yes, we offer gift wrapping for an additional fee. You can select this option during the checkout process.",gift_wrapping
+Can I gift wrap my order?,"Yes, we offer gift wrapping for an additional fee. You can select this option during the checkout process.",gift_wrapping
+Can you wrap my gifts for me?,"Yes, we offer gift wrapping for an extra fee. You can select it during checkout.",gift_wrapping
+Can I gift wrap my order?,"Yes, we offer gift wrapping for an additional fee. You can select this option during the checkout process.",gift_wrapping
+Can I gift wrap my order?,"Yes, we offer gift wrapping for an additional fee. You can select this option during the checkout process.",gift_wrapping
+Can I gift wrap my order?,"Yes, we offer gift wrapping for an additional fee. You can select this option during the checkout process.",gift_wrapping
+Can I gift wrap my order?,"Yes, we offer gift wrapping for an additional fee. You can select this option during the checkout process.",gift_wrapping
+Can I gift wrap my order?,"Yes, we offer gift wrapping for an additional fee. You can select this option during the checkout process.",gift_wrapping
+Can I gift wrap my order?,"Yes, we offer gift wrapping for an additional fee. You can select this option during the checkout process.",gift_wrapping
+Are your products eco-friendly?,Many of our products are designed with sustainability in mind. Look for the eco-friendly badge on product pages for more details.,eco_friendly_products
+Do you sell eco-friendly products?,"Yes, many of our products are eco-friendly. Look for the eco-friendly badge on the product page for more details.",eco_friendly_products
+Are your products eco-friendly?,Many of our products are designed with sustainability in mind. Look for the eco-friendly badge on product pages for more details.,eco_friendly_products
+Are your products eco-friendly?,Many of our products are designed with sustainability in mind. Look for the eco-friendly badge on product pages for more details.,eco_friendly_products
+Do you sell eco-friendly products?,"Yes, many of our products are eco-friendly. Look for the eco-friendly badge on the product page for more details.",eco_friendly_products
+Are your products eco-friendly?,Many of our products are designed with sustainability in mind. Look for the eco-friendly badge on product pages for more details.,eco_friendly_products
+Are your products eco-friendly?,Many of our products are designed with sustainability in mind. Look for the eco-friendly badge on product pages for more details.,eco_friendly_products
+Are your products eco-friendly?,Many of our products are designed with sustainability in mind. Look for the eco-friendly badge on product pages for more details.,eco_friendly_products
+Are your products eco-friendly?,Many of our products are designed with sustainability in mind. Look for the eco-friendly badge on product pages for more details.,eco_friendly_products
+Are your products eco-friendly?,Many of our products are designed with sustainability in mind. Look for the eco-friendly badge on product pages for more details.,eco_friendly_products
+Are your products eco-friendly?,Many of our products are designed with sustainability in mind. Look for the eco-friendly badge on product pages for more details.,eco_friendly_products
+Are your products eco-friendly?,Many of our products are designed with sustainability in mind. Look for the eco-friendly badge on product pages for more details.,eco_friendly_products
+Do you sell eco-friendly products?,"Yes, many of our products are eco-friendly. Look for the eco-friendly badge on the product page for more details.",eco_friendly_products
+Do you sell eco-friendly products?,"Yes, many of our products are eco-friendly. Look for the eco-friendly badge on the product page for more details.",eco_friendly_products
+Are your products eco-friendly?,Many of our products are designed with sustainability in mind. Look for the eco-friendly badge on product pages for more details.,eco_friendly_products
+Are your products eco-friendly?,Many of our products are designed with sustainability in mind. Look for the eco-friendly badge on product pages for more details.,eco_friendly_products
+Are your products eco-friendly?,Many of our products are designed with sustainability in mind. Look for the eco-friendly badge on product pages for more details.,eco_friendly_products
+Are your products eco-friendly?,Many of our products are designed with sustainability in mind. Look for the eco-friendly badge on product pages for more details.,eco_friendly_products
+How do I apply a promo code?,"During checkout, you will find a field to enter your promo code. Simply type it in and click 'Apply' to see your discount reflected in the total.",apply_promo_code
+How do I apply a promo code?,"During checkout, you will find a field to enter your promo code. Simply type it in and click 'Apply' to see your discount reflected in the total.",apply_promo_code
+Where can I enter my promo code?,You can enter your promo code during checkout in the designated field to receive your discount.,apply_promo_code
+Where can I enter my promo code?,You can enter your promo code during checkout in the designated field to receive your discount.,apply_promo_code
+How do I apply a promo code?,"During checkout, you will find a field to enter your promo code. Simply type it in and click 'Apply' to see your discount reflected in the total.",apply_promo_code
+Where can I enter my promo code?,You can enter your promo code during checkout in the designated field to receive your discount.,apply_promo_code
+How do I apply a promo code?,"During checkout, you will find a field to enter your promo code. Simply type it in and click 'Apply' to see your discount reflected in the total.",apply_promo_code
+How do I apply a promo code?,"During checkout, you will find a field to enter your promo code. Simply type it in and click 'Apply' to see your discount reflected in the total.",apply_promo_code
+How do I apply a promo code?,"During checkout, you will find a field to enter your promo code. Simply type it in and click 'Apply' to see your discount reflected in the total.",apply_promo_code
+Where can I enter my promo code?,You can enter your promo code during checkout in the designated field to receive your discount.,apply_promo_code
+How do I apply a promo code?,"During checkout, you will find a field to enter your promo code. Simply type it in and click 'Apply' to see your discount reflected in the total.",apply_promo_code
+Where can I enter my promo code?,You can enter your promo code during checkout in the designated field to receive your discount.,apply_promo_code
+Where can I enter my promo code?,You can enter your promo code during checkout in the designated field to receive your discount.,apply_promo_code
+How do I apply a promo code?,"During checkout, you will find a field to enter your promo code. Simply type it in and click 'Apply' to see your discount reflected in the total.",apply_promo_code
+How do I apply a promo code?,"During checkout, you will find a field to enter your promo code. Simply type it in and click 'Apply' to see your discount reflected in the total.",apply_promo_code
+Where can I enter my promo code?,You can enter your promo code during checkout in the designated field to receive your discount.,apply_promo_code
+How do I apply a promo code?,"During checkout, you will find a field to enter your promo code. Simply type it in and click 'Apply' to see your discount reflected in the total.",apply_promo_code
+How do I apply a promo code?,"During checkout, you will find a field to enter your promo code. Simply type it in and click 'Apply' to see your discount reflected in the total.",apply_promo_code
+What is the warranty on this product?,This product comes with a one-year warranty.,product_warranty
+Does this product come with a warranty?,"Yes, this item includes a one-year warranty for repairs or replacements.",product_warranty
+Does this product come with a warranty?,"Yes, this item includes a one-year warranty for repairs or replacements.",product_warranty
+What is the warranty on this product?,This product comes with a one-year warranty.,product_warranty
+Does this product come with a warranty?,"Yes, this item includes a one-year warranty for repairs or replacements.",product_warranty
+Does this product come with a warranty?,"Yes, this item includes a one-year warranty for repairs or replacements.",product_warranty
+What is the warranty on this product?,This product comes with a one-year warranty.,product_warranty
+Does this product come with a warranty?,"Yes, this item includes a one-year warranty for repairs or replacements.",product_warranty
+Does this product come with a warranty?,"Yes, this item includes a one-year warranty for repairs or replacements.",product_warranty
+Does this product come with a warranty?,"Yes, this item includes a one-year warranty for repairs or replacements.",product_warranty
+Does this product come with a warranty?,"Yes, this item includes a one-year warranty for repairs or replacements.",product_warranty
+What is the warranty on this product?,This product comes with a one-year warranty.,product_warranty
+What is the warranty on this product?,This product comes with a one-year warranty.,product_warranty
+Does this product come with a warranty?,"Yes, this item includes a one-year warranty for repairs or replacements.",product_warranty
+Does this product come with a warranty?,"Yes, this item includes a one-year warranty for repairs or replacements.",product_warranty
+Does this product come with a warranty?,"Yes, this item includes a one-year warranty for repairs or replacements.",product_warranty
+Does this product come with a warranty?,"Yes, this item includes a one-year warranty for repairs or replacements.",product_warranty
+Does this product come with a warranty?,"Yes, this item includes a one-year warranty for repairs or replacements.",product_warranty
+Do you offer expedited shipping?,"Yes, we offer expedited shipping options during checkout for faster delivery. The cost will depend on your location and the speed of delivery.",expedited_shipping
+Do you offer expedited shipping?,"Yes, we offer expedited shipping options during checkout for faster delivery. The cost will depend on your location and the speed of delivery.",expedited_shipping
+How do I speed up shipping for my order?,"During checkout, you can select expedited shipping for faster delivery. The cost will depend on your location.",expedited_shipping
+Do you offer expedited shipping?,"Yes, we offer expedited shipping options during checkout for faster delivery. The cost will depend on your location and the speed of delivery.",expedited_shipping
+Do you offer expedited shipping?,"Yes, we offer expedited shipping options during checkout for faster delivery. The cost will depend on your location and the speed of delivery.",expedited_shipping
+How do I speed up shipping for my order?,"During checkout, you can select expedited shipping for faster delivery. The cost will depend on your location.",expedited_shipping
+Do you offer expedited shipping?,"Yes, we offer expedited shipping options during checkout for faster delivery. The cost will depend on your location and the speed of delivery.",expedited_shipping
+How do I speed up shipping for my order?,"During checkout, you can select expedited shipping for faster delivery. The cost will depend on your location.",expedited_shipping
+How do I speed up shipping for my order?,"During checkout, you can select expedited shipping for faster delivery. The cost will depend on your location.",expedited_shipping
+Do you offer expedited shipping?,"Yes, we offer expedited shipping options during checkout for faster delivery. The cost will depend on your location and the speed of delivery.",expedited_shipping
+Do you offer expedited shipping?,"Yes, we offer expedited shipping options during checkout for faster delivery. The cost will depend on your location and the speed of delivery.",expedited_shipping
+Do you offer expedited shipping?,"Yes, we offer expedited shipping options during checkout for faster delivery. The cost will depend on your location and the speed of delivery.",expedited_shipping
+How do I speed up shipping for my order?,"During checkout, you can select expedited shipping for faster delivery. The cost will depend on your location.",expedited_shipping
+Do you offer expedited shipping?,"Yes, we offer expedited shipping options during checkout for faster delivery. The cost will depend on your location and the speed of delivery.",expedited_shipping
+How do I speed up shipping for my order?,"During checkout, you can select expedited shipping for faster delivery. The cost will depend on your location.",expedited_shipping
+How do I speed up shipping for my order?,"During checkout, you can select expedited shipping for faster delivery. The cost will depend on your location.",expedited_shipping
+How do I speed up shipping for my order?,"During checkout, you can select expedited shipping for faster delivery. The cost will depend on your location.",expedited_shipping
+Do you offer expedited shipping?,"Yes, we offer expedited shipping options during checkout for faster delivery. The cost will depend on your location and the speed of delivery.",expedited_shipping
+Do you offer international shipping?,"Yes, we ship to most countries worldwide. Shipping rates may vary.",international_shipping
+Do you offer international shipping?,"Yes, we ship to most countries worldwide. Shipping rates may vary.",international_shipping
+Can you ship to other countries?,"Yes, we offer international shipping to many destinations.",international_shipping
+Do you offer international shipping?,"Yes, we ship to most countries worldwide. Shipping rates may vary.",international_shipping
+Do you offer international shipping?,"Yes, we ship to most countries worldwide. Shipping rates may vary.",international_shipping
+Can you ship to other countries?,"Yes, we offer international shipping to many destinations.",international_shipping
+Can you ship to other countries?,"Yes, we offer international shipping to many destinations.",international_shipping
+Can you ship to other countries?,"Yes, we offer international shipping to many destinations.",international_shipping
+Do you offer international shipping?,"Yes, we ship to most countries worldwide. Shipping rates may vary.",international_shipping
+Do you offer international shipping?,"Yes, we ship to most countries worldwide. Shipping rates may vary.",international_shipping
+Do you offer international shipping?,"Yes, we ship to most countries worldwide. Shipping rates may vary.",international_shipping
+Can you ship to other countries?,"Yes, we offer international shipping to many destinations.",international_shipping
+Do you offer international shipping?,"Yes, we ship to most countries worldwide. Shipping rates may vary.",international_shipping
+Can you ship to other countries?,"Yes, we offer international shipping to many destinations.",international_shipping
+Do you offer international shipping?,"Yes, we ship to most countries worldwide. Shipping rates may vary.",international_shipping
+Can you ship to other countries?,"Yes, we offer international shipping to many destinations.",international_shipping
+Can you ship to other countries?,"Yes, we offer international shipping to many destinations.",international_shipping
+Can you ship to other countries?,"Yes, we offer international shipping to many destinations.",international_shipping
+I need to update my shipping address. Can you help?,"To change your address, contact us as soon as possible before your order is shipped.",change_address
+I need to update my shipping address. Can you help?,"To change your address, contact us as soon as possible before your order is shipped.",change_address
+I need to update my shipping address. Can you help?,"To change your address, contact us as soon as possible before your order is shipped.",change_address
+How can I change my delivery address?,You can change your delivery address by contacting support before your order is shipped.,change_address
+How can I change my delivery address?,You can change your delivery address by contacting support before your order is shipped.,change_address
+I need to update my shipping address. Can you help?,"To change your address, contact us as soon as possible before your order is shipped.",change_address
+How can I change my delivery address?,You can change your delivery address by contacting support before your order is shipped.,change_address
+I need to update my shipping address. Can you help?,"To change your address, contact us as soon as possible before your order is shipped.",change_address
+How can I change my delivery address?,You can change your delivery address by contacting support before your order is shipped.,change_address
+How can I change my delivery address?,You can change your delivery address by contacting support before your order is shipped.,change_address
+How can I change my delivery address?,You can change your delivery address by contacting support before your order is shipped.,change_address
+How can I change my delivery address?,You can change your delivery address by contacting support before your order is shipped.,change_address
+How can I change my delivery address?,You can change your delivery address by contacting support before your order is shipped.,change_address
+I need to update my shipping address. Can you help?,"To change your address, contact us as soon as possible before your order is shipped.",change_address
+How can I change my delivery address?,You can change your delivery address by contacting support before your order is shipped.,change_address
+I need to update my shipping address. Can you help?,"To change your address, contact us as soon as possible before your order is shipped.",change_address
+I need to update my shipping address. Can you help?,"To change your address, contact us as soon as possible before your order is shipped.",change_address
+How can I change my delivery address?,You can change your delivery address by contacting support before your order is shipped.,change_address
+What is the status of my refund?,"Refunds are processed within 5-7 business days after approval. If you have not received your refund after this period, please contact support for an update.",refund_status
+Has my refund been processed yet?,Refunds are typically processed within 5-7 business days. Please contact us for an update.,refund_status
+Has my refund been processed yet?,Refunds are typically processed within 5-7 business days. Please contact us for an update.,refund_status
+Has my refund been processed yet?,Refunds are typically processed within 5-7 business days. Please contact us for an update.,refund_status
+What is the status of my refund?,"Refunds are processed within 5-7 business days after approval. If you have not received your refund after this period, please contact support for an update.",refund_status
+Has my refund been processed yet?,Refunds are typically processed within 5-7 business days. Please contact us for an update.,refund_status
+What is the status of my refund?,"Refunds are processed within 5-7 business days after approval. If you have not received your refund after this period, please contact support for an update.",refund_status
+What is the status of my refund?,"Refunds are processed within 5-7 business days after approval. If you have not received your refund after this period, please contact support for an update.",refund_status
+What is the status of my refund?,"Refunds are processed within 5-7 business days after approval. If you have not received your refund after this period, please contact support for an update.",refund_status
+What is the status of my refund?,"Refunds are processed within 5-7 business days after approval. If you have not received your refund after this period, please contact support for an update.",refund_status
+What is the status of my refund?,"Refunds are processed within 5-7 business days after approval. If you have not received your refund after this period, please contact support for an update.",refund_status
+What is the status of my refund?,"Refunds are processed within 5-7 business days after approval. If you have not received your refund after this period, please contact support for an update.",refund_status
+Has my refund been processed yet?,Refunds are typically processed within 5-7 business days. Please contact us for an update.,refund_status
+What is the status of my refund?,"Refunds are processed within 5-7 business days after approval. If you have not received your refund after this period, please contact support for an update.",refund_status
+What is the status of my refund?,"Refunds are processed within 5-7 business days after approval. If you have not received your refund after this period, please contact support for an update.",refund_status
+What is the status of my refund?,"Refunds are processed within 5-7 business days after approval. If you have not received your refund after this period, please contact support for an update.",refund_status
+Has my refund been processed yet?,Refunds are typically processed within 5-7 business days. Please contact us for an update.,refund_status
+What is the status of my refund?,"Refunds are processed within 5-7 business days after approval. If you have not received your refund after this period, please contact support for an update.",refund_status
+I forgot my password. What should I do?,Click 'Forgot Password' on the login page and follow the steps to reset your password.,reset_password
+I forgot my password. What should I do?,Click 'Forgot Password' on the login page and follow the steps to reset your password.,reset_password
+I forgot my password. What should I do?,Click 'Forgot Password' on the login page and follow the steps to reset your password.,reset_password
+I forgot my password. What should I do?,Click 'Forgot Password' on the login page and follow the steps to reset your password.,reset_password
+I forgot my password. What should I do?,Click 'Forgot Password' on the login page and follow the steps to reset your password.,reset_password
+I forgot my password. What should I do?,Click 'Forgot Password' on the login page and follow the steps to reset your password.,reset_password
+How do I reset my password?,Click on 'Forgot Password' on the login page and follow the instructions.,reset_password
+How do I reset my password?,Click on 'Forgot Password' on the login page and follow the instructions.,reset_password
+I forgot my password. What should I do?,Click 'Forgot Password' on the login page and follow the steps to reset your password.,reset_password
+How do I reset my password?,Click on 'Forgot Password' on the login page and follow the instructions.,reset_password
+I forgot my password. What should I do?,Click 'Forgot Password' on the login page and follow the steps to reset your password.,reset_password
+I forgot my password. What should I do?,Click 'Forgot Password' on the login page and follow the steps to reset your password.,reset_password
+How do I reset my password?,Click on 'Forgot Password' on the login page and follow the instructions.,reset_password
+How do I reset my password?,Click on 'Forgot Password' on the login page and follow the instructions.,reset_password
+I forgot my password. What should I do?,Click 'Forgot Password' on the login page and follow the steps to reset your password.,reset_password
+I forgot my password. What should I do?,Click 'Forgot Password' on the login page and follow the steps to reset your password.,reset_password
+How do I reset my password?,Click on 'Forgot Password' on the login page and follow the instructions.,reset_password
+I forgot my password. What should I do?,Click 'Forgot Password' on the login page and follow the steps to reset your password.,reset_password
+Will there be discounts for Black Friday?,We will have special offers and promotions for Black Friday. Stay tuned to our website for details.,upcoming_promotions
+Are there any upcoming promotions?,Stay tuned to our website for upcoming promotions and sales.,upcoming_promotions
+Are there any upcoming promotions?,Stay tuned to our website for upcoming promotions and sales.,upcoming_promotions
+Are there any upcoming promotions?,Stay tuned to our website for upcoming promotions and sales.,upcoming_promotions
+Will there be discounts for Black Friday?,We will have special offers and promotions for Black Friday. Stay tuned to our website for details.,upcoming_promotions
+Are there any upcoming promotions?,Stay tuned to our website for upcoming promotions and sales.,upcoming_promotions
+Are there any upcoming promotions?,Stay tuned to our website for upcoming promotions and sales.,upcoming_promotions
+Are there any upcoming promotions?,Stay tuned to our website for upcoming promotions and sales.,upcoming_promotions
+Are there any upcoming promotions?,Stay tuned to our website for upcoming promotions and sales.,upcoming_promotions
+Are there any upcoming promotions?,Stay tuned to our website for upcoming promotions and sales.,upcoming_promotions
+Are there any upcoming promotions?,Stay tuned to our website for upcoming promotions and sales.,upcoming_promotions
+Will there be discounts for Black Friday?,We will have special offers and promotions for Black Friday. Stay tuned to our website for details.,upcoming_promotions
+Will there be discounts for Black Friday?,We will have special offers and promotions for Black Friday. Stay tuned to our website for details.,upcoming_promotions
+Will there be discounts for Black Friday?,We will have special offers and promotions for Black Friday. Stay tuned to our website for details.,upcoming_promotions
+Will there be discounts for Black Friday?,We will have special offers and promotions for Black Friday. Stay tuned to our website for details.,upcoming_promotions
+Will there be discounts for Black Friday?,We will have special offers and promotions for Black Friday. Stay tuned to our website for details.,upcoming_promotions
+Will there be discounts for Black Friday?,We will have special offers and promotions for Black Friday. Stay tuned to our website for details.,upcoming_promotions
+Will there be discounts for Black Friday?,We will have special offers and promotions for Black Friday. Stay tuned to our website for details.,upcoming_promotions
+How do I place a custom order?,Please contact our customer service team to inquire about placing a custom order.,custom_order
+How do I place a custom order?,Please contact our customer service team to inquire about placing a custom order.,custom_order
+How do I place a custom order?,Please contact our customer service team to inquire about placing a custom order.,custom_order
+Can I request a custom order?,"Yes, custom orders are available for select products.",custom_order
+How do I place a custom order?,Please contact our customer service team to inquire about placing a custom order.,custom_order
+Can I request a custom order?,"Yes, custom orders are available for select products.",custom_order
+Can I request a custom order?,"Yes, custom orders are available for select products.",custom_order
+Can I request a custom order?,"Yes, custom orders are available for select products.",custom_order
+Can I request a custom order?,"Yes, custom orders are available for select products.",custom_order
+How do I place a custom order?,Please contact our customer service team to inquire about placing a custom order.,custom_order
+Can I request a custom order?,"Yes, custom orders are available for select products.",custom_order
+Can I request a custom order?,"Yes, custom orders are available for select products.",custom_order
+Can I request a custom order?,"Yes, custom orders are available for select products.",custom_order
+How do I place a custom order?,Please contact our customer service team to inquire about placing a custom order.,custom_order
+How do I place a custom order?,Please contact our customer service team to inquire about placing a custom order.,custom_order
+How do I place a custom order?,Please contact our customer service team to inquire about placing a custom order.,custom_order
+Can I request a custom order?,"Yes, custom orders are available for select products.",custom_order
+How do I place a custom order?,Please contact our customer service team to inquire about placing a custom order.,custom_order
+How do I unsubscribe from emails?,Click the 'Unsubscribe' link at the bottom of any email.,unsubscribe_email
+Can I stop receiving emails from you?,"Yes, you can unsubscribe from our emails by clicking the 'Unsubscribe' link in any email.",unsubscribe_email
+How do I unsubscribe from emails?,Click the 'Unsubscribe' link at the bottom of any email.,unsubscribe_email
+How do I unsubscribe from emails?,Click the 'Unsubscribe' link at the bottom of any email.,unsubscribe_email
+Can I stop receiving emails from you?,"Yes, you can unsubscribe from our emails by clicking the 'Unsubscribe' link in any email.",unsubscribe_email
+Can I stop receiving emails from you?,"Yes, you can unsubscribe from our emails by clicking the 'Unsubscribe' link in any email.",unsubscribe_email
+How do I unsubscribe from emails?,Click the 'Unsubscribe' link at the bottom of any email.,unsubscribe_email
+Can I stop receiving emails from you?,"Yes, you can unsubscribe from our emails by clicking the 'Unsubscribe' link in any email.",unsubscribe_email
+How do I unsubscribe from emails?,Click the 'Unsubscribe' link at the bottom of any email.,unsubscribe_email
+How do I unsubscribe from emails?,Click the 'Unsubscribe' link at the bottom of any email.,unsubscribe_email
+How do I unsubscribe from emails?,Click the 'Unsubscribe' link at the bottom of any email.,unsubscribe_email
+How do I unsubscribe from emails?,Click the 'Unsubscribe' link at the bottom of any email.,unsubscribe_email
+Can I stop receiving emails from you?,"Yes, you can unsubscribe from our emails by clicking the 'Unsubscribe' link in any email.",unsubscribe_email
+How do I unsubscribe from emails?,Click the 'Unsubscribe' link at the bottom of any email.,unsubscribe_email
+Can I stop receiving emails from you?,"Yes, you can unsubscribe from our emails by clicking the 'Unsubscribe' link in any email.",unsubscribe_email
+Can I stop receiving emails from you?,"Yes, you can unsubscribe from our emails by clicking the 'Unsubscribe' link in any email.",unsubscribe_email
+How do I unsubscribe from emails?,Click the 'Unsubscribe' link at the bottom of any email.,unsubscribe_email
+How do I unsubscribe from emails?,Click the 'Unsubscribe' link at the bottom of any email.,unsubscribe_email
+What is your privacy policy?,Our privacy policy can be viewed at example.com/privacy.,privacy_policy
+Where can I read your privacy policy?,You can read our full privacy policy on our website at example.com/privacy.,privacy_policy
+What is your privacy policy?,Our privacy policy can be viewed at example.com/privacy.,privacy_policy
+What is your privacy policy?,Our privacy policy can be viewed at example.com/privacy.,privacy_policy
+Where can I read your privacy policy?,You can read our full privacy policy on our website at example.com/privacy.,privacy_policy
+Where can I read your privacy policy?,You can read our full privacy policy on our website at example.com/privacy.,privacy_policy
+What is your privacy policy?,Our privacy policy can be viewed at example.com/privacy.,privacy_policy
+Where can I read your privacy policy?,You can read our full privacy policy on our website at example.com/privacy.,privacy_policy
+Where can I read your privacy policy?,You can read our full privacy policy on our website at example.com/privacy.,privacy_policy
+Where can I read your privacy policy?,You can read our full privacy policy on our website at example.com/privacy.,privacy_policy
+What is your privacy policy?,Our privacy policy can be viewed at example.com/privacy.,privacy_policy
+Where can I read your privacy policy?,You can read our full privacy policy on our website at example.com/privacy.,privacy_policy
+Where can I read your privacy policy?,You can read our full privacy policy on our website at example.com/privacy.,privacy_policy
+What is your privacy policy?,Our privacy policy can be viewed at example.com/privacy.,privacy_policy
+What is your privacy policy?,Our privacy policy can be viewed at example.com/privacy.,privacy_policy
+Where can I read your privacy policy?,You can read our full privacy policy on our website at example.com/privacy.,privacy_policy
+Where can I read your privacy policy?,You can read our full privacy policy on our website at example.com/privacy.,privacy_policy
+Where can I read your privacy policy?,You can read our full privacy policy on our website at example.com/privacy.,privacy_policy
+I need help. How can I reach customer service?,You can reach our customer service team by email at support@example.com or by phone at 1-800-123-4567.,contact_support
+I need help. How can I reach customer service?,You can reach our customer service team by email at support@example.com or by phone at 1-800-123-4567.,contact_support
+How do I contact customer support?,You can contact us via email at support@example.com or call 1-800-123-4567.,contact_support
+How do I contact customer support?,You can contact us via email at support@example.com or call 1-800-123-4567.,contact_support
+How do I contact customer support?,You can contact us via email at support@example.com or call 1-800-123-4567.,contact_support
+I need help. How can I reach customer service?,You can reach our customer service team by email at support@example.com or by phone at 1-800-123-4567.,contact_support
+How do I contact customer support?,You can contact us via email at support@example.com or call 1-800-123-4567.,contact_support
+How do I contact customer support?,You can contact us via email at support@example.com or call 1-800-123-4567.,contact_support
+How do I contact customer support?,You can contact us via email at support@example.com or call 1-800-123-4567.,contact_support
+I need help. How can I reach customer service?,You can reach our customer service team by email at support@example.com or by phone at 1-800-123-4567.,contact_support
+How do I contact customer support?,You can contact us via email at support@example.com or call 1-800-123-4567.,contact_support
+How do I contact customer support?,You can contact us via email at support@example.com or call 1-800-123-4567.,contact_support
+How do I contact customer support?,You can contact us via email at support@example.com or call 1-800-123-4567.,contact_support
+I need help. How can I reach customer service?,You can reach our customer service team by email at support@example.com or by phone at 1-800-123-4567.,contact_support
+How do I contact customer support?,You can contact us via email at support@example.com or call 1-800-123-4567.,contact_support
+How do I contact customer support?,You can contact us via email at support@example.com or call 1-800-123-4567.,contact_support
+I need help. How can I reach customer service?,You can reach our customer service team by email at support@example.com or by phone at 1-800-123-4567.,contact_support
+I need help. How can I reach customer service?,You can reach our customer service team by email at support@example.com or by phone at 1-800-123-4567.,contact_support
+Do you have an office in New York?,"Currently, our main office is in San Francisco, but we are looking to expand.",company_location
+Where is your company located?,"Our headquarters are located in San Francisco, California.",company_location
+Do you have an office in New York?,"Currently, our main office is in San Francisco, but we are looking to expand.",company_location
+Do you have an office in New York?,"Currently, our main office is in San Francisco, but we are looking to expand.",company_location
+Do you have an office in New York?,"Currently, our main office is in San Francisco, but we are looking to expand.",company_location
+Do you have an office in New York?,"Currently, our main office is in San Francisco, but we are looking to expand.",company_location
+Do you have an office in New York?,"Currently, our main office is in San Francisco, but we are looking to expand.",company_location
+Do you have an office in New York?,"Currently, our main office is in San Francisco, but we are looking to expand.",company_location
+Do you have an office in New York?,"Currently, our main office is in San Francisco, but we are looking to expand.",company_location
+Where is your company located?,"Our headquarters are located in San Francisco, California.",company_location
+Do you have an office in New York?,"Currently, our main office is in San Francisco, but we are looking to expand.",company_location
+Where is your company located?,"Our headquarters are located in San Francisco, California.",company_location
+Do you have an office in New York?,"Currently, our main office is in San Francisco, but we are looking to expand.",company_location
+Do you have an office in New York?,"Currently, our main office is in San Francisco, but we are looking to expand.",company_location
+Do you have an office in New York?,"Currently, our main office is in San Francisco, but we are looking to expand.",company_location
+Do you have an office in New York?,"Currently, our main office is in San Francisco, but we are looking to expand.",company_location
+Do you have an office in New York?,"Currently, our main office is in San Francisco, but we are looking to expand.",company_location
+Where is your company located?,"Our headquarters are located in San Francisco, California.",company_location
