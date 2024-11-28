@@ -84,7 +84,7 @@ header {
     padding: 10px;
     margin-bottom: 10px;
     background-color: $bg-color;  /* Light gray background */
-    border-radius: 8px;
+    border-radius: 24px;
     display: flex;
     flex-direction: column;
     padding-bottom: 40px; /* Extra space at the bottom for typing indicator */
@@ -94,7 +94,7 @@ header {
 .message {
     margin: 10px 0;
     padding: 10px;
-    border-radius: 8px;
+    border-radius: 12px;
     max-width: 75%;
     word-wrap: break-word;
     display: flex;
@@ -154,7 +154,7 @@ header {
 
 /* Typing indicator style */
 #typing-indicator {
-    font-size: 0.85rem;
+    font-size: 0.875rem;
     font-style: italic;
     color: #aaa;
     margin-top: 5px;
@@ -187,13 +187,13 @@ header {
 }
 
 #char-limit-phrase {
-    font-size: 0.85rem;
+    font-size: 0.875rem;
     color: #aaa; /* Matches the style of #char-count */
     text-align: left; /* Aligns to the left side */
 }
 
 #char-count {
-    font-size: 0.85rem;
+    font-size: 0.875rem;
     color: #aaa;
     text-align: right; /* Aligns to the right side */
 }
@@ -217,7 +217,7 @@ header {
     width: 100%;
     padding: 10px;
     font-size: 1rem;
-    border: 1px solid #aaa;
+    border: 1px solid rgba(170, 170, 170, 0.7);
     border-radius: 24px;
     resize: none; /* Allow vertical resizing of textarea */
     padding-left: 20px;
@@ -228,7 +228,7 @@ header {
     scrollbar-width: none;  /* For Firefox */
 
     &::placeholder {
-        color: #aaa;
+        color: rgba(170, 170, 170, 0.7);
     }
 
     &:focus {
@@ -255,6 +255,20 @@ header {
     right: 20px; /* Position the button to the right */
     top: 60%; /* Vertically center the button */
     transform: translateY(-50%); /* Adjust for perfect centering */
+
+    &:hover {
+        background-color: lighten($link-color, 10%);
+    }
+
+    &:active {
+        background-color: lighten($link-color, 20%);
+    }
+
+    &:focus {
+        outline: none;
+        box-shadow: none;
+        border-color: none; /* Highlight border with accent color */
+    }
 }
 
 /* Icon inside the button */
