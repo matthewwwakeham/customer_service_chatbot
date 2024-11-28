@@ -14,12 +14,24 @@ function appendMessage(sender, message, timestamp, immediate = false) {
 
     // Dynamically create header text: "Name • Timestamp"
     const name = sender === 'You' ? 'You' : 'Leo'; // Determine the name
-    const headerText = `${name} • ${timestamp}`; // Combine name and timestamp
 
-    // Create the header element and set its text content
+    // Create the header element
     const headerElem = document.createElement('div');
     headerElem.classList.add('message-header');
-    headerElem.textContent = headerText;
+
+    // Create the name element
+    const nameElem = document.createElement('span');
+    nameElem.classList.add('message-name');
+    nameElem.textContent = name;
+
+    // Create the timestamp element
+    const timestampElem = document.createElement('span');
+    timestampElem.classList.add('message-timestamp');
+    timestampElem.textContent = timestamp;
+
+    // Append both name and timestamp to the header
+    headerElem.appendChild(nameElem);
+    headerElem.appendChild(timestampElem);
 
     // Create the message text element
     const messageTextElem = document.createElement('div');
@@ -44,6 +56,19 @@ function appendMessage(sender, message, timestamp, immediate = false) {
     }
 }
 
+// Function to format the time in 12-hour format (AM/PM) without leading zero
+function formatTime(date) {
+    let hours = date.getHours();
+    let minutes = date.getMinutes();
+    const ampm = hours >= 12 ? 'PM' : 'AM';
+    hours = hours % 12; // Convert hour to 12-hour format
+    hours = hours ? hours : 12; // The hour '0' should display as 12
+    if (minutes < 10) {
+        minutes = '0' + minutes; // Ensure two-digit minutes
+    }
+    return `${hours}:${minutes} ${ampm}`;
+}
+
 // Function to append a greeting message
 function appendGreetingMessage() {
     const now = new Date();
@@ -59,7 +84,7 @@ function appendGreetingMessage() {
 
     // Format the current day and time
     const currentDay = now.toLocaleDateString([], { weekday: 'long' });
-    const currentTime = now.toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: true });
+    const currentTime = formatTime(now); // Using the formatTime function
 
     // Create a container for the greeting message
     const greetingElem = document.createElement('div');
@@ -92,7 +117,7 @@ async function sendMessage() {
     if (!message) return;
 
     // Get the current time for the user's message in 12-hour format
-    const userTimestamp = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: true });
+    const userTimestamp = formatTime(new Date()); // Using the formatTime function
 
     // Append the user's message to the chat
     appendMessage('You', message, userTimestamp);
@@ -132,7 +157,7 @@ async function sendMessage() {
 
             // Append the bot's response after the delay
             const botMessage = data.bot_response.message;
-            const botTimestamp = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: true });
+            const botTimestamp = formatTime(new Date()); // Using the formatTime function
             appendMessage('Chatbot', botMessage, botTimestamp);
         }, 1500); // 1.5 seconds delay (adjust as needed)
     } catch (error) {
@@ -154,7 +179,7 @@ document.addEventListener('DOMContentLoaded', () => {
     appendGreetingMessage();
 
     // Append chatbot's first message
-    const welcomeTimestamp = new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit', hour12: true });
+    const welcomeTimestamp = formatTime(new Date()); // Using the formatTime function
     appendMessage('Chatbot', 'Hello! How can I assist you today?', welcomeTimestamp, true);
 });
 

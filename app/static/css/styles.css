@@ -38,12 +38,12 @@ header {
 /* Bold greeting text */
 .greeting-text {
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.75rem;
 }
 
 /* Smaller, secondary text for the day and time */
 .greeting-details {
-  font-size: 0.85rem;
+  font-size: 0.875rem;
   margin-top: 5px;
   color: #aaa; /* Subtle gray for secondary details */
 }
@@ -83,12 +83,24 @@ header {
 
 /* Header containing name and timestamp */
 .message-header {
-  font-weight: 400;
-  font-size: 0.85rem;
-  color: white; /* Color for name and timestamp */
+  font-weight: 300;
+  font-size: 0.75rem;
+  color: white; /* Color for both name and timestamp */
   margin-bottom: 5px; /* Space between header and message text */
   display: flex;
   justify-content: space-between; /* Aligns content on the same line */
+  align-items: center; /* Vertically align items */
+}
+
+/* Style for the name part of the header */
+.message-name {
+  font-weight: bold; /* Makes the name stand out */
+}
+
+/* Style for the timestamp part of the header */
+.message-timestamp {
+  opacity: 0.7;
+  margin-left: 10px;
 }
 
 /* User message specific styles */

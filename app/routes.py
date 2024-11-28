@@ -44,6 +44,12 @@ def chat():
         error_logger.warning("User message: [EMPTY] - Error: No message provided.")
         return jsonify({'error': 'No message provided.'}), 400
     
+    # Enforce character limit (140 characters)
+    if len(user_input) > 140:
+        # Log to error log
+        error_logger.warning(f"User message exceeded character limit: {len(user_input)} characters.")
+        return jsonify({'error': 'Message exceeds 140 characters.'}), 400
+
     # Get the current time
     timestamp = datetime.now().strftime("%H:%M")
 
