@@ -1,6 +1,5 @@
 /* imports */
 @import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
-/* Variables (amoled dark mode) */
 /* Ensure box-sizing includes padding and border in width calculations */
 * {
   box-sizing: border-box;
@@ -14,12 +13,12 @@ body {
   padding: 0;
   display: flex;
   flex-direction: column;
-  height: 100vh; /* Full height of the screen */
+  height: 100vh;
 }
 
 /* Header style */
 header {
-  background-color: #121212; /* Just an example color */
+  background-color: #121212;
   border-radius: 24px;
   color: #aaa;
   text-align: left;
@@ -31,8 +30,8 @@ header {
 /* General styles for the greeting */
 .greeting-message {
   margin: 10px 0;
-  text-align: center; /* Center-align the greeting */
-  color: #aaa; /* Light gray color */
+  text-align: center;
+  color: #aaa;
 }
 
 /* Bold greeting text */
@@ -45,7 +44,7 @@ header {
 .greeting-details {
   font-size: 0.875rem;
   margin-top: 5px;
-  color: #aaa; /* Subtle gray for secondary details */
+  color: #aaa;
 }
 
 /* Main chat container */
@@ -54,20 +53,20 @@ header {
   flex-direction: column;
   flex-grow: 1;
   padding: 10px;
-  overflow: hidden; /* Prevent overflow on the main container */
+  overflow: hidden;
 }
 
 /* Chat messages container */
 #messages {
-  flex-grow: 1; /* Messages container takes up available space */
-  overflow-y: auto; /* Make messages scrollable */
+  flex-grow: 1;
+  overflow-y: auto;
   padding: 10px;
   margin-bottom: 10px;
-  background-color: #121212; /* Light gray background */
+  background-color: #121212;
   border-radius: 24px;
   display: flex;
   flex-direction: column;
-  padding-bottom: 40px; /* Extra space at the bottom for typing indicator */
+  padding-bottom: 40px;
 }
 
 /* General message styles */
@@ -85,16 +84,16 @@ header {
 .message-header {
   font-weight: 300;
   font-size: 0.75rem;
-  color: white; /* Color for both name and timestamp */
-  margin-bottom: 5px; /* Space between header and message text */
+  color: #ffffff;
+  margin-bottom: 5px;
   display: flex;
-  justify-content: space-between; /* Aligns content on the same line */
-  align-items: center; /* Vertically align items */
+  justify-content: space-between;
+  align-items: center;
 }
 
 /* Style for the name part of the header */
 .message-name {
-  font-weight: bold; /* Makes the name stand out */
+  font-weight: bold;
 }
 
 /* Style for the timestamp part of the header */
@@ -105,26 +104,26 @@ header {
 
 /* User message specific styles */
 .message.user {
-  background-color: #0066CC; /* Teal background for user messages */
-  color: white; /* White text */
-  align-self: flex-end; /* Align user messages to the right */
+  background-color: #0066CC;
+  color: #ffffff;
+  align-self: flex-end;
   text-align: left;
 }
 
 .message.user .message-header {
-  justify-content: flex-start; /* Align name and timestamp to the right */
+  justify-content: flex-start;
 }
 
 /* Bot message specific styles */
 .message.bot {
-  background-color: #2C2C2C; /* Purple background for bot messages */
-  color: white; /* White text */
-  align-self: flex-start; /* Align bot messages to the left */
+  background-color: #2C2C2C;
+  color: #ffffff;
+  align-self: flex-start;
   text-align: left;
 }
 
 .message.bot .message-header {
-  justify-content: flex-start; /* Align name and timestamp to the left */
+  justify-content: flex-start;
 }
 
 /* Message text styling */
@@ -167,22 +166,22 @@ header {
   }
 }
 #char-count-container {
-  display: flex; /* Enables flexbox layout */
-  justify-content: space-between; /* Positions children at opposite ends */
-  align-items: center; /* Vertically aligns the text */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   margin-top: 5px;
 }
 
 #char-limit-phrase {
   font-size: 0.875rem;
-  color: #aaa; /* Matches the style of #char-count */
-  text-align: left; /* Aligns to the left side */
+  color: #aaa;
+  text-align: left;
 }
 
 #char-count {
   font-size: 0.875rem;
   color: #aaa;
-  text-align: right; /* Aligns to the right side */
+  text-align: right;
 }
 
 /* Input area (fixed at the bottom) */
@@ -206,13 +205,13 @@ header {
   font-size: 1rem;
   border: 1px solid rgba(170, 170, 170, 0.7);
   border-radius: 24px;
-  resize: none; /* Allow vertical resizing of textarea */
+  resize: none;
   padding-left: 20px;
-  padding-right: 50px; /* Space for the button on the right side */
-  box-sizing: border-box; /* Include padding and border in width */
-  overflow: auto; /* Enable scrolling */
-  -ms-overflow-style: none; /* For Internet Explorer and Edge */
-  scrollbar-width: none; /* For Firefox */
+  padding-right: 50px;
+  box-sizing: border-box;
+  overflow: auto;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
 }
 #user-input::-moz-placeholder {
   color: rgba(170, 170, 170, 0.7);
@@ -225,14 +224,14 @@ header {
 }
 
 #user-input::-webkit-scrollbar {
-  display: none; /* For Chrome, Safari, and newer versions of Edge */
+  display: none;
 }
 
 /* Button with icon, placed inside the textarea */
 #input-area button {
   background-color: #0066CC;
   border: none;
-  color: white;
+  color: #ffffff;
   padding: 10px;
   border-radius: 50%;
   display: flex;
@@ -240,9 +239,9 @@ header {
   align-items: center;
   cursor: pointer;
   position: absolute;
-  right: 20px; /* Position the button to the right */
-  top: 60%; /* Vertically center the button */
-  transform: translateY(-50%); /* Adjust for perfect centering */
+  right: 20px;
+  top: 60%;
+  transform: translateY(-50%);
 }
 #input-area button:hover {
   background-color: #0080ff;
@@ -253,7 +252,7 @@ header {
 #input-area button:focus {
   outline: none;
   box-shadow: none;
-  border-color: none; /* Highlight border with accent color */
+  border-color: none;
 }
 
 /* Icon inside the button */
