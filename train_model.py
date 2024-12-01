@@ -37,7 +37,7 @@ def train_and_save_model():
     model = LogisticRegression(max_iter=200, class_weight='balanced')  # Use class weight to handle imbalance
     model.fit(X_train_vect, y_train)
 
-    # Define the stratified k-fold cross-validation with 5 splits
+    # Define the stratified k-fold cross-validation with 3 splits
     skf = StratifiedKFold(n_splits=3, shuffle=True, random_state=42)
 
     # Evaluate the model using stratified k-fold cross-validation

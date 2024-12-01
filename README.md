@@ -1,0 +1,1 @@
+Please use run.py. The wsgi.py relies nginx which must be installed separately from requirements.txt.

@@ -3,4 +3,3 @@ logs/chat_logs.txt
 __pycache__/
 *.pyc
 *.pyo
-*.log

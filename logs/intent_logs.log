@@ -1,0 +1,4 @@
+2024-12-01 04:17:19,461 - User Query: Help me return this product!
+2024-12-01 04:17:19,462 - Predicted Intent: return_product (Confidence: 0.98)
+2024-12-01 04:17:19,462 - Valid Intent: return_product
+2024-12-01 04:17:19,531 - FAQ Match: How do I return a product? (Similarity: 0.52)
